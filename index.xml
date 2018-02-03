@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mas Shiro</title>
-    <link>http://okutasan.github.io/</link>
+    <link>https://okutasan.github.io/</link>
     <description>Recent content on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Dec 2017 21:34:26 +0700</lastBuildDate>
     
-	<atom:link href="http://okutasan.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://okutasan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Post Pertama!</title>
-      <link>http://okutasan.github.io/post/post-pertama/</link>
+      <link>https://okutasan.github.io/post/post-pertama/</link>
       <pubDate>Sun, 17 Dec 2017 21:34:26 +0700</pubDate>
       
-      <guid>http://okutasan.github.io/post/post-pertama/</guid>
+      <guid>https://okutasan.github.io/post/post-pertama/</guid>
       <description>Post pertama menggunakan HUGO, awesome !</description>
     </item>
     
