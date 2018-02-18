@@ -5,11 +5,22 @@
     <link>https://okutasan.github.io/</link>
     <description>Recent content on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 17 Dec 2017 21:34:26 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 17 Feb 2018 02:12:34 +0700</lastBuildDate>
     
 	<atom:link href="https://okutasan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Belajar Laravel #1</title>
+      <link>https://okutasan.github.io/post/laravel-1/</link>
+      <pubDate>Sat, 17 Feb 2018 02:12:34 +0700</pubDate>
+      
+      <guid>https://okutasan.github.io/post/laravel-1/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.github.io/img/laravel/laravelogo.png&#34; width=&#34;75%&#34;&gt;
+Selamat malam, Ini adalah catatan belajar laravel yang saya lakukan. Semoga bermanfaat.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Post Pertama!</title>
@@ -17,7 +28,7 @@
       <pubDate>Sun, 17 Dec 2017 21:34:26 +0700</pubDate>
       
       <guid>https://okutasan.github.io/post/post-pertama/</guid>
-      <description>&lt;p&gt;Post pertama menggunakan HUGO, awesome !&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.github.io/img/haha.jpg&#34; width=&#34;70%&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

@@ -5,9 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Categories</title>
-  <meta property="og:title" content="Categories" />
-  <meta name="twitter:title" content="Categories" />
+  <title>Belajar Laravel #1</title>
+  <meta property="og:title" content="Belajar Laravel #1" />
+  <meta name="twitter:title" content="Belajar Laravel #1" />
+  <meta name="description" content="Persiapan dan Instalasi">
+  <meta property="og:description" content="Persiapan dan Instalasi">
+  <meta name="twitter:description" content="Persiapan dan Instalasi">
   <meta name="author" content="Okutasan"/>
   <link href='https://okutasan.github.io/img/favicon.png' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://okutasan.github.io/img/avatar-icon.png" />
@@ -15,13 +18,13 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@okta_tekak" />
   <meta name="twitter:creator" content="@okta_tekak" />
-  <meta property="og:url" content="https://okutasan.github.io/categories/" />
+  <meta property="og:url" content="https://okutasan.github.io/post/laravel-1/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Mas Shiro" />
 
   <meta name="generator" content="Hugo 0.31.1" />
-  <link rel="canonical" href="https://okutasan.github.io/categories/" />
-  <link rel="alternate" href="https://okutasan.github.io/categories/index.xml" type="application/rss+xml" title="Mas Shiro">
+  <link rel="canonical" href="https://okutasan.github.io/post/laravel-1/" />
+  <link rel="alternate" href="" type="application/rss+xml" title="Mas Shiro">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -172,9 +175,21 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="categories-heading">
-              <h1>Categories</h1>
+            <div class="post-heading">
+              <h1>Belajar Laravel #1</h1>
                 
+                  
+                    <h2 class="post-subheading">Persiapan dan Instalasi</h2>
+                  
+                
+                
+                  <span class="post-meta">
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on February 17, 2018
+  &nbsp;|&nbsp; <i class="fa fa-clock-o"></i> 2 min (300 mots)
+  
+</span>
+
+
                 
             </div>
           </div>
@@ -185,14 +200,98 @@
 
 
     
-  
-  <div class="container" role="main">
-    <article class="post-preview">
-      <div class="list-group col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p><img src="/img/laravel/laravelogo.png" width="75%">
+Selamat malam, Ini adalah catatan belajar laravel yang saya lakukan. Semoga bermanfaat.</p>
+
+<p></p>
+
+<p>Oke sebelum menggunakan Laravel Framework ada beberapa hal yang perlu dipersiapkan yaitu :</p>
+
+<ol>
+<li>Web Server</li>
+<li>Composer</li>
+<li>Koneksi Internet</li>
+</ol>
+
+<p>Pada setiap platfrom cara persiapannya berbeda-beda tergantung platfrom OS yang digunakan. Berikut beberapa persiapan yang dibutuhkan sesuai OS nya.</p>
+
+<h3 id="windows">Windows</h3>
+
+<ol>
+<li><p>Install XAMPP</p>
+
+<ul>
+<li>Download XMPP/WAMP/ sejenisnya untuk server pada windows. Pilih yang menggunakan PHP 5. Untuk XAMPP download di <a href="https://www.apachefriends.org/download.html">XAMPP</a>. Setelah itu install XAMPP pada windows.<br /></li>
+</ul></li>
+
+<li><p>Install Composer</p>
+
+<ul>
+<li><p>Composer sendiri manajemen dependency pada PHP seperti npm (Node.js) dan Bundler (Ruby). Composer memungkinkan untuk membuat library pada project anda dan composer sendiri akan menginstall atau mengupdate secara otomatis tanpa anda harus menginstall manual -<a href="https://idcloudhost.com/pengertian-dan-manfaat-composer-bagi-developer/">idcloudhost</a>.</p></li>
+
+<li><p>Download Composer <a href="https://getcomposer.org/Composer-Setup.exe">DISINI</a>.</p></li>
+
+<li><p>Kemudian install Composer, tapi pastikan sudah menginstall XAMPP server dulu.</p></li>
+
+<li><p>Cek apakah composer sudah terinstall dengan cara buka CommandPrompt. CTRL+R ketik CMD kemudian ketikan composer. Jika sudah terinstall maka akan seperti berikut : <img src="/img/laravel/composercmd.png" alt="Composer" /></p></li>
+
+<li><p>Jika belum masukan/edit PATH composer sesuai lokasi install Composer. Atau bisa baca postingan <a href="http://okutasan.github.io/">Setting <em>PATH</em> Pada Windows</a>.</p></li>
+</ul></li>
+
+<li><p>Install Laravel Framework</p>
+
+<p>Setelah composer terinstall sekarang saatnya kita menginstall Laravel Frameworknya.</p>
+
+<ul>
+<li>Pertama kita buka Commandprompt windows, kemudian kita arahkan ke directory htdocs XAMPP yang telah kita install. <img src="/img/laravel/htdocs.png" alt="Composer" /></li>
+
+<li><p>Setelah itu ketik perintah composer berikut untuk mengunduh laravel</p>
+
+<p><code>composer create-project --prefer-dist laravel/laravel blog</code></p>
+
+<blockquote>
+<p>Penjelasan :<br />
+<strong>composer</strong> : perintah menjalankan composer<br />
+<strong>create-project</strong> :  pilihan untuk membuat project baru<br />
+<strong>laravel/laravel</strong> : pilihan mengunduh laravel library<br />
+<strong>blog</strong> : nama directory yang akan dibuat untuk library laravel</p>
+</blockquote></li>
+
+<li><p>Jika sudah selesai kemudian masuk ke directory yang sudah dibuat menggunakan perintah <code>cd</code>.
+<img src="/img/laravel/selesai.png" alt="Selesai" /></p></li>
+
+<li><p>Cek apakah laravel sudah terdownload dengan benar dengan perintah <code>php artisan -V</code>. Jika benar maka versi laravel akan muncul.
+<img src="/img/laravel/phpartisan.png" alt="PHPArtisan" /></p></li>
+
+<li><p>Buka XAMPP Control Panel dan aktifkan servernya.
+<img src="/img/laravel/xampp.PNG" alt="xampp" /></p></li>
+
+<li><p>cek di browser dengan mengetikan di url browser <code>http://localhost/fulan/public/</code>. Jika tampilan seperti berikut berarti laravel siap untuk dioprek dan digunakan. <img src="/img/laravel/laravel.PNG" alt="xampp" /></p></li>
+</ul></li>
+</ol>
+
+<p>Oke terimakasih semoga bermanfaat.</p>
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="https://okutasan.github.io/post/post-pertama/" data-toggle="tooltip" data-placement="top" title="Post Pertama!">&larr; Previous Post</a>
+          </li>
+        
+        
+      </ul>
+
+
       
-      </div>
-    </article>
+
+    </div>
   </div>
+</div>
 
     <footer>
   <div class="container">
@@ -234,7 +333,7 @@
               </li>
           
           <li>
-            <a href="https://okutasan.github.io/categories/index.xml" title="RSS">
+            <a href="" title="RSS">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
