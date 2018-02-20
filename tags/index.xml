@@ -5,10 +5,19 @@
     <link>https://okutasan.github.io/tags/</link>
     <description>Recent content in Tags on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 17 Feb 2018 02:12:34 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 20 Feb 2018 16:24:44 +0700</lastBuildDate>
     
 	<atom:link href="https://okutasan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Django</title>
+      <link>https://okutasan.github.io/tags/django/</link>
+      <pubDate>Tue, 20 Feb 2018 16:24:44 +0700</pubDate>
+      
+      <guid>https://okutasan.github.io/tags/django/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Laravel</title>
@@ -16,6 +25,15 @@
       <pubDate>Sat, 17 Feb 2018 02:12:34 +0700</pubDate>
       
       <guid>https://okutasan.github.io/tags/laravel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://okutasan.github.io/tags/python/</link>
+      <pubDate>Tue, 20 Feb 2018 16:24:44 +0700</pubDate>
+      
+      <guid>https://okutasan.github.io/tags/python/</guid>
       <description></description>
     </item>
     
