@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://okutasan.github.io/post/docker-1/</loc>
+    <lastmod>2018-03-15T05:15:01+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://okutasan.github.io/post/django-1/</loc>
     <lastmod>2018-02-20T16:24:44+07:00</lastmod>
   </url>
@@ -24,7 +29,7 @@
   
   <url>
     <loc>https://okutasan.github.io/</loc>
-    <lastmod>2018-02-20T16:24:44+07:00</lastmod>
+    <lastmod>2018-03-15T05:15:01+07:00</lastmod>
   </url>
   
   <url>
@@ -39,6 +44,12 @@
   </url>
   
   <url>
+    <loc>https://okutasan.github.io/tags/docker/</loc>
+    <lastmod>2018-03-15T05:15:01+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://okutasan.github.io/tags/laravel/</loc>
     <lastmod>2018-02-17T02:12:34+07:00</lastmod>
     <priority>0</priority>
@@ -46,7 +57,7 @@
   
   <url>
     <loc>https://okutasan.github.io/post/</loc>
-    <lastmod>2018-02-20T16:24:44+07:00</lastmod>
+    <lastmod>2018-03-15T05:15:01+07:00</lastmod>
     <priority>0</priority>
   </url>
   
