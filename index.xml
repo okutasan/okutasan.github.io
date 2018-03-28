@@ -5,10 +5,21 @@
     <link>https://okutasan.github.io/</link>
     <description>Recent content on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 18 Mar 2018 01:54:33 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 29 Mar 2018 00:24:51 +0700</lastBuildDate>
     
 	<atom:link href="https://okutasan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Install Java Linux Mint</title>
+      <link>https://okutasan.github.io/post/install-java-linux-mint/</link>
+      <pubDate>Thu, 29 Mar 2018 00:24:51 +0700</pubDate>
+      
+      <guid>https://okutasan.github.io/post/install-java-linux-mint/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://techaeris.com/wp-content/uploads/2016/01/Java-logo-png.png&#34; width=&#34;75%&#34;&gt;&lt;br /&gt;
+こんにちはみんな! (^o^)/&lt;br /&gt;
+Selamat malam, Ini adalah catatan belajar &lt;code&gt;Install Java Pada Linux Mint&lt;/code&gt; yang saya lakukan. Semoga bermanfaat..&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Eror Mount Ntfs Di Ubuntu</title>

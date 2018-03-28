@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Mas Shiro</title>
-    <link>https://okutasan.github.io/tags/linux/</link>
-    <description>Recent content in Linux on Mas Shiro</description>
+    <title>Java on Mas Shiro</title>
+    <link>https://okutasan.github.io/tags/java/</link>
+    <description>Recent content in Java on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 29 Mar 2018 00:24:51 +0700</lastBuildDate>
     
-	<atom:link href="https://okutasan.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://okutasan.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,17 +19,6 @@
       <description>&lt;p&gt;&lt;img src=&#34;https://techaeris.com/wp-content/uploads/2016/01/Java-logo-png.png&#34; width=&#34;75%&#34;&gt;&lt;br /&gt;
 こんにちはみんな! (^o^)/&lt;br /&gt;
 Selamat malam, Ini adalah catatan belajar &lt;code&gt;Install Java Pada Linux Mint&lt;/code&gt; yang saya lakukan. Semoga bermanfaat..&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Eror Mount Ntfs Di Ubuntu</title>
-      <link>https://okutasan.github.io/post/eror-mount-ntfs/</link>
-      <pubDate>Sun, 18 Mar 2018 01:54:33 +0700</pubDate>
-      
-      <guid>https://okutasan.github.io/post/eror-mount-ntfs/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.github.io/img/ntfseror.png&#34; width=&#34;90%&#34;&gt;&lt;br /&gt;
-こんにちはみんな! (^o^)/
-Selamat pagi, Ini adalah catatan tips &lt;code&gt;Eror mount NTFS di Ubuntu&lt;/code&gt; Semoga bermanfaat..&lt;/p&gt;</description>
     </item>
     
   </channel>
