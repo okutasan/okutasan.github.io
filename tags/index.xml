@@ -5,10 +5,19 @@
     <link>https://okutasan.github.io/tags/</link>
     <description>Recent content in Tags on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 20 Feb 2018 16:24:44 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 29 Mar 2018 01:36:25 +0700</lastBuildDate>
     
 	<atom:link href="https://okutasan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Android</title>
+      <link>https://okutasan.github.io/tags/android/</link>
+      <pubDate>Thu, 29 Mar 2018 01:36:25 +0700</pubDate>
+      
+      <guid>https://okutasan.github.io/tags/android/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Django</title>
@@ -58,7 +67,7 @@
     <item>
       <title>Linux</title>
       <link>https://okutasan.github.io/tags/linux/</link>
-      <pubDate>Thu, 29 Mar 2018 00:24:51 +0700</pubDate>
+      <pubDate>Thu, 29 Mar 2018 01:36:25 +0700</pubDate>
       
       <guid>https://okutasan.github.io/tags/linux/</guid>
       <description></description>
@@ -85,7 +94,7 @@
     <item>
       <title>Tips</title>
       <link>https://okutasan.github.io/tags/tips/</link>
-      <pubDate>Sun, 18 Mar 2018 01:54:33 +0700</pubDate>
+      <pubDate>Thu, 29 Mar 2018 01:36:25 +0700</pubDate>
       
       <guid>https://okutasan.github.io/tags/tips/</guid>
       <description></description>

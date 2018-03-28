@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://okutasan.github.io/post/eror-insufficient-permissions-for-device-with-adb/</loc>
+    <lastmod>2018-03-29T01:36:25+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://okutasan.github.io/post/install-java-linux-mint/</loc>
     <lastmod>2018-03-29T00:24:51+07:00</lastmod>
   </url>
@@ -44,7 +49,13 @@
   
   <url>
     <loc>https://okutasan.github.io/</loc>
-    <lastmod>2018-03-29T00:24:51+07:00</lastmod>
+    <lastmod>2018-03-29T01:36:25+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://okutasan.github.io/tags/android/</loc>
+    <lastmod>2018-03-29T01:36:25+07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -84,13 +95,13 @@
   
   <url>
     <loc>https://okutasan.github.io/tags/linux/</loc>
-    <lastmod>2018-03-29T00:24:51+07:00</lastmod>
+    <lastmod>2018-03-29T01:36:25+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://okutasan.github.io/post/</loc>
-    <lastmod>2018-03-29T00:24:51+07:00</lastmod>
+    <lastmod>2018-03-29T01:36:25+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -108,13 +119,13 @@
   
   <url>
     <loc>https://okutasan.github.io/tags/</loc>
-    <lastmod>2018-02-20T16:24:44+07:00</lastmod>
+    <lastmod>2018-03-29T01:36:25+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://okutasan.github.io/tags/tips/</loc>
-    <lastmod>2018-03-18T01:54:33+07:00</lastmod>
+    <lastmod>2018-03-29T01:36:25+07:00</lastmod>
     <priority>0</priority>
   </url>
   

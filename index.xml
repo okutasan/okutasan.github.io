@@ -5,10 +5,22 @@
     <link>https://okutasan.github.io/</link>
     <description>Recent content on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 29 Mar 2018 00:24:51 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 29 Mar 2018 01:36:25 +0700</lastBuildDate>
     
 	<atom:link href="https://okutasan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fix Error: Insufficient Permissions for Device With ADB</title>
+      <link>https://okutasan.github.io/post/eror-insufficient-permissions-for-device-with-adb/</link>
+      <pubDate>Thu, 29 Mar 2018 01:36:25 +0700</pubDate>
+      
+      <guid>https://okutasan.github.io/post/eror-insufficient-permissions-for-device-with-adb/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.github.io/img/java/androidstudio.png&#34; width=&#34;50%&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;こんにちはみんな! (^o^)/
+Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikasi yang saya gunakan adalah Android Studio yang run pada Linux Mint. &lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Install Java Linux Mint</title>

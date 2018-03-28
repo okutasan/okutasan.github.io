@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Install Java Linux Mint</title>
-  <meta property="og:title" content="Install Java Linux Mint" />
-  <meta name="twitter:title" content="Install Java Linux Mint" />
-  <meta name="description" content="Install JDK Via PPA">
-  <meta property="og:description" content="Install JDK Via PPA">
-  <meta name="twitter:description" content="Install JDK Via PPA">
+  <title>Fix Error: Insufficient Permissions for Device With ADB</title>
+  <meta property="og:title" content="Fix Error: Insufficient Permissions for Device With ADB" />
+  <meta name="twitter:title" content="Fix Error: Insufficient Permissions for Device With ADB" />
+  <meta name="description" content="Fix Eror Run APK pada Device">
+  <meta property="og:description" content="Fix Eror Run APK pada Device">
+  <meta name="twitter:description" content="Fix Eror Run APK pada Device">
   <meta name="author" content="Okutasan"/>
   <link href='https://okutasan.github.io/img/avatar-favicon.png' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://okutasan.github.io/img/avatar-icon2.png" />
@@ -18,12 +18,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@okta_tekak" />
   <meta name="twitter:creator" content="@okta_tekak" />
-  <meta property="og:url" content="https://okutasan.github.io/post/install-java-linux-mint/" />
+  <meta property="og:url" content="https://okutasan.github.io/post/eror-insufficient-permissions-for-device-with-adb/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Mas Shiro" />
 
   <meta name="generator" content="Hugo 0.37.1" />
-  <link rel="canonical" href="https://okutasan.github.io/post/install-java-linux-mint/" />
+  <link rel="canonical" href="https://okutasan.github.io/post/eror-insufficient-permissions-for-device-with-adb/" />
   <link rel="alternate" href="https://okutasan.github.io/index.xml" type="application/rss+xml" title="Mas Shiro">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -182,10 +182,10 @@ ga('send', 'pageview');
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
-              <h1>Install Java Linux Mint</h1>
+              <h1>Fix Error: Insufficient Permissions for Device With ADB</h1>
                 
                   
-                    <h2 class="post-subheading">Install JDK Via PPA</h2>
+                    <h2 class="post-subheading">Fix Eror Run APK pada Device</h2>
                   
                 
                 
@@ -216,40 +216,30 @@ ga('send', 'pageview');
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p><img src="https://techaeris.com/wp-content/uploads/2016/01/Java-logo-png.png" width="75%"><br />
-こんにちはみんな! (^o^)/<br />
-Selamat malam, Ini adalah catatan belajar <code>Install Java Pada Linux Mint</code> yang saya lakukan. Semoga bermanfaat..</p>
+        <p><img src="/img/java/androidstudio.png" width="50%"></p>
 
-<p>Untuk instalasi java 8 atau 9 yang terbaru bisa menggunakan PPA <a href="https://launchpad.net/~webupd8team/+archive/ubuntu/java">Webupd8 Team</a>.</p>
+<p>こんにちはみんな! (^o^)/
+Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikasi yang saya gunakan adalah Android Studio yang run pada Linux Mint. </p>
 
-<h4 id="1-tambahkan-ppa-webupd8-team">1. Tambahkan PPA Webupd8 Team</h4>
+<p>Sewaktu mau test aplikasi dengan run menggunakan device android terjadi error <code>Insufficient Permissions for Device With ADB</code> nah setelah googling saya menemukan solusinya agar aplikasi kita dapat ditest menggunakan device android pada OS Linux Mint. Berikut beberapa caranya yang saya dapatkan.</p>
 
-<p>Buka terminal (ctrl+alt+t) kemudian copy paste atau ketikan pada terminal.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> sudo add-apt-repository ppa:webupd8team/java</code></pre></div>
-<p>Jika sudah akan muncul konfirmasi <code>enter</code> saja.</p>
+<h5 id="1-cek-usb-debugging">1. Cek USB Debugging</h5>
 
-<h4 id="2-update-apt">2. Update Apt</h4>
+<p>Cek perangkat android sudahkan pada mode developer. Jika belum silahkan aktifkan mode developer.</p>
 
-<p>Update repositori agar dapat ter-list package javanya dengan menggunakan perintah.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> sudo apt update</code></pre></div>
-<h4 id="3-install-java">3. Install Java</h4>
+<h4 id="2-install-adb">2. Install adb</h4>
 
-<p>Jika sudah selesai update install java <sup>8</sup>&frasl;<sub>9</sub> dengan cara ketikan perintah berikut ke terminal.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt install oracle-java8-installer</code></pre></div>
-<p>Tunggu sampai muncul aggrement license pilih <code>ok</code> kemudian <code>yes</code></p>
+<p>Jika masih tidak bisa coba cek apakah adb-tools sudah terinstall. Jika belum install dengan mengetikan perintah berikut pada terminal.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> sudo apt install android-tools-adb</code></pre></div>
+<p>Jika sudah maka lakukan hal berikut ini pada terminal linux</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> adb kill-server</code></pre></div>
+<p>Dan aktifkan ulang adb menggunakan root user</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> sudo adb start-server</code></pre></div>
+<p>Maka akan seperti ini</p>
 
-<p><img src="/img/java/javaok.png" alt="JavaOK" /><br />
-<img src="/img/java/javayes.png" alt="Java Yes" /></p>
+<p><img src="/img/java/adbstart.png" alt="Adb Start" /></p>
 
-<p>Tunggu proses download JDK. Biasanya perlu waktu agak lama tergantung dari koneksi yang kita punya.</p>
-
-<h4 id="4-testing">4. Testing</h4>
-
-<p>Jika sudah selesai instalasi silahkan test apakah java sudah terpasang pada Linux Mint dengan menggunakan perintah</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> javac -version</code></pre></div>
-<p>Maka akan tampil versi dari java yang kita install.</p>
-
-<p><img src="/img/java/javac.png" alt="Java" />.</p>
+<p>Nah akhirnya aplikasi bisa saya test menggunakan device android yang saya punya. :D</p>
 
 <p>Semoga catatan belajar saya ini bermanfaat.<br />
 <img src="/img/docker/cute.jpg" width="70%">
@@ -260,13 +250,9 @@ Selamat malam, Ini adalah catatan belajar <code>Install Java Pada Linux Mint</co
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://okutasan.github.io/post/eror-mount-ntfs/" data-toggle="tooltip" data-placement="top" title="Eror Mount Ntfs Di Ubuntu">&larr; Previous Post</a>
+              <a href="https://okutasan.github.io/post/install-java-linux-mint/" data-toggle="tooltip" data-placement="top" title="Install Java Linux Mint">&larr; Previous Post</a>
             </li>
           
-          
-            <li class="next">
-              <a href="https://okutasan.github.io/post/eror-insufficient-permissions-for-device-with-adb/" data-toggle="tooltip" data-placement="top" title="Fix Error: Insufficient Permissions for Device With ADB">Next Post &rarr;</a>
-            </li>
           
         </ul>
       
