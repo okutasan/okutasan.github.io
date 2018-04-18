@@ -5,12 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Belajar Docker</title>
-  <meta property="og:title" content="Belajar Docker" />
-  <meta name="twitter:title" content="Belajar Docker" />
-  <meta name="description" content="Instalasi Docker Ubuntu Server">
-  <meta property="og:description" content="Instalasi Docker Ubuntu Server">
-  <meta name="twitter:description" content="Instalasi Docker Ubuntu Server">
+  <title>Emergency Boot Linux</title>
+  <meta property="og:title" content="Emergency Boot Linux" />
+  <meta name="twitter:title" content="Emergency Boot Linux" />
+  <meta name="description" content="
+
+こんにちはみんな! (^o^)/
+Halo semua, pernah mengalami emergency boot di linux ? . ">
+  <meta property="og:description" content="
+
+こんにちはみんな! (^o^)/
+Halo semua, pernah mengalami emergency boot di linux ? . ">
+  <meta name="twitter:description" content="
+
+こんにちはみんな! (^o^)/
+Halo semua, pernah mengalami emergency boot di linux ? . ">
   <meta name="author" content="Okutasan"/>
   <link href='https://okutasan.github.io/img/avatar-favicon.png' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://okutasan.github.io/img/avatar-icon2.png" />
@@ -18,12 +27,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@okta_tekak" />
   <meta name="twitter:creator" content="@okta_tekak" />
-  <meta property="og:url" content="https://okutasan.github.io/post/docker-1/" />
+  <meta property="og:url" content="https://okutasan.github.io/post/emergency-boot-linux/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Mas Shiro" />
 
   <meta name="generator" content="Hugo 0.39" />
-  <link rel="canonical" href="https://okutasan.github.io/post/docker-1/" />
+  <link rel="canonical" href="https://okutasan.github.io/post/emergency-boot-linux/" />
   <link rel="alternate" href="https://okutasan.github.io/index.xml" type="application/rss+xml" title="Mas Shiro">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -182,21 +191,17 @@ ga('send', 'pageview');
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
-              <h1>Belajar Docker</h1>
-                
-                  
-                    <h2 class="post-subheading">Instalasi Docker Ubuntu Server</h2>
-                  
+              <h1>Emergency Boot Linux</h1>
                 
                 
                   <span class="post-meta">
   
   
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on March 15, 2018
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on April 17, 2018
   
   
   &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 2 minutes (282 words)
+  <i class="fa fa-clock-o"></i> 1 minutes (201 words)
   
   
 </span>
@@ -216,61 +221,39 @@ ga('send', 'pageview');
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p><img src="/img/docker/dockerhero.jpg" width="60%"></p>
+        <p><img src="https://orig00.deviantart.net/92c1/f/2015/071/4/2/linuxmint_flat_wallpaper_by_x86basedhuman-d8lemzo.png" width="70%"></p>
 
-<p>こんにちはみんな! (^o^)/
-Selamat pagi, Ini adalah catatan belajar <code>Docker Portainer</code> yang saya lakukan. Semoga bermanfaat..</p>
+<p>こんにちはみんな! (^o^)/<br />
+Halo semua, pernah mengalami emergency boot di linux ? . </p>
 
-<p><br></p>
+<p>Pada kemarin sore saya mengalami hal ini. Entah apa yang saya lakukan sebelum shutdown linux mint tiba-tiba pas mau dinyalakan lagi malah muncul emergency boot. Emergency boot ini terjadi saat playmouth berjalan untuk tampilannya kurang lebih seperti ini.</p>
 
-<h3 id="persiapan">Persiapan</h3>
+<p><img src="https://i.stack.imgur.com/7Dhyo.jpg" width="70%"></p>
 
-<p>Pada kali ini saya mengguanakan <strong>Ubuntu Server 16.04</strong> sebagai OS nya. Untuk instalasi Ubuntu Server sementara belum saya tulis catatannya.</p>
+<p>Nah setelah googling saya menemukan solusinya dan dapat masuk ke linux mint kembali. Berikut saya share cara menangani Emergency boot pada linux.</p>
 
-<h3 id="instalasi-docker">Instalasi Docker</h3>
+<h4 id="1-masuk-ke-liveusb-linux">1. Masuk ke LiveUSB Linux</h4>
 
-<p>Untuk instalasi Docker ada 2 cara yaitu : 1. Dari Repositori, 2 Dari package. Untuk kali ini saya akan install docker melalui repository.</p>
+<p>Silahkan buat Live Linux xubuntu atau yang lainnya. Bisa menggunakan media USB Flashdisk ataupun DVD. Setelah liveboot masuk ke terminal console dengan cara <code>ctrl+t</code>.</p>
 
-<p><strong>1. Update Repositori</strong><br />
- Silahkan update Ubuntu Server menggunanak repositori kesayangan kamu.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> $ sudo apt update</code></pre></div>
-<p><strong>2. Instalasi paket pendukung.</strong><br />
- Install paket-paket pendukung untuk docker dengan cara ketik di terminal.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> $ sudo apt-get install <span class="se">\
-</span><span class="se"></span>       apt-transport-https <span class="se">\
-</span><span class="se"></span>       ca-certificates <span class="se">\
-</span><span class="se"></span>       curl <span class="se">\
-</span><span class="se"></span>       software-properties-common</code></pre></div>
-<p><strong>3. Add gpg docker.</strong><br />
-Perintah ini untuk menambahkan gpg key docker.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg <span class="p">|</span> sudo apt-key add -</code></pre></div>
-<p><strong>4. Add fingerprint</strong><br />
-Verifikasi fingerprint dengan menambahkan 8 karakter terakhir dari <code>9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88</code>. Jika benar akan muncul fingerprintnya.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> $ sudo apt-key fingerprint 0EBFCD88
+<h4 id="2-cek-lokasi-home-directory">2. Cek Lokasi Home Directory</h4>
 
- pub   4096R/0EBFCD88 <span class="m">2017</span>-02-22
-      Key <span class="nv">fingerprint</span> <span class="o">=</span> 9DC8 <span class="m">5822</span> 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
- uid                  Docker Release <span class="o">(</span>CE deb<span class="o">)</span> &lt;docker@docker.com&gt;
- sub   4096R/F273FCD8 <span class="m">2017</span>-02-22</code></pre></div>
-<p><strong>5. Atur stable Repositori</strong><br />
- Atur repositori docker yang stable.</p>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"> $ sudo add-apt-repository <span class="se">\
-</span><span class="se"></span>   <span class="s2">&#34;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-</span><span class="s2">   </span><span class="k">$(</span>xenial<span class="k">)</span><span class="s2"> \
-</span><span class="s2">   stable&#34;</span></code></pre></div>
-<p><strong>6. Install Docker</strong><br />
- Update dahulu repository pada terminal.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> $ sudo apt update</code></pre></div>
-<p>Kemudian install docker</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> $ sudo apt-get install docker-ce</code></pre></div>
-<p><strong>7. Cek Docker</strong><br />
- Untuk cek docker sudah terinstall atau belum tuliskan perintah berikut</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> $ docker version</code></pre></div>
-<p>Jika sudah terinstall maka versi docker akan muncul. Setelah itu cek docker untuk menjalankan hello-world images dengan cara</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ sudo docker run hello-world</code></pre></div>
-<p>Perintah tersebut adalah untuk mengunduh images hello-world dan menjalankannya pada docker. Jika berhasil maka akan muncul <code>hello-world</code>.</p>
+<p>Masuk root user dengan cara</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> sudo -i</code></pre></div>
+<p>Kemudian cek Home directory teman-teman. Jika home tidak dipisah berarti cari directroy <code>/</code> jika dipisah maka cari directory home nya dengan cara ketik</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> fdisk -l</code></pre></div>
+<p>jika ketemu maka langkah selanjutnya</p>
 
-<p>Semoga catatan belajar Django saya ini bermanfaat.<br />
+<h4 id="3-fix-fsck">3. Fix fsck</h4>
+
+<p>Kita asumsikan disini partisi Home saya ada di /dev/sda1. nah untuk partisi teman-teman menyesuaikan ya tergantung hasil dari <code>fdisk -l</code>. Kemudian ketikan perintah berikut.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> umount <span class="se">\d</span>ev<span class="se">\s</span>da1<span class="se">\
+</span><span class="se"></span> fsck -y</code></pre></div>
+<p>nah jika sudah <code>fsck</code> tunggu prosesnya sampai selesai.
+ Kemudian reboot.
+ Dicoba boot pada linux teman-teman. Insyaallah berhasil hehe ^^.</p>
+
+<p>Semoga catatan belajar saya ini bermanfaat.<br />
 <img src="/img/docker/cute.jpg" width="70%">
 じゃ、また ヾ(＾-＾)ノ</p>
       </article>
@@ -279,13 +262,9 @@ Verifikasi fingerprint dengan menambahkan 8 karakter terakhir dari <code>9DC8 58
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://okutasan.github.io/post/django-1/" data-toggle="tooltip" data-placement="top" title="Belajar Django #1">&larr; Previous Post</a>
+              <a href="https://okutasan.github.io/post/eror-insufficient-permissions-for-device-with-adb/" data-toggle="tooltip" data-placement="top" title="Fix Error: Insufficient Permissions for Device With ADB">&larr; Previous Post</a>
             </li>
           
-          
-            <li class="next">
-              <a href="https://okutasan.github.io/post/relax-1/" data-toggle="tooltip" data-placement="top" title="Relax #1">Next Post &rarr;</a>
-            </li>
           
         </ul>
       

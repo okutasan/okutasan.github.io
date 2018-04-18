@@ -5,10 +5,22 @@
     <link>https://okutasan.github.io/</link>
     <description>Recent content on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 29 Mar 2018 01:36:25 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 17 Apr 2018 17:43:30 +0700</lastBuildDate>
     
 	<atom:link href="https://okutasan.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Emergency Boot Linux</title>
+      <link>https://okutasan.github.io/post/emergency-boot-linux/</link>
+      <pubDate>Tue, 17 Apr 2018 17:43:30 +0700</pubDate>
+      
+      <guid>https://okutasan.github.io/post/emergency-boot-linux/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://orig00.deviantart.net/92c1/f/2015/071/4/2/linuxmint_flat_wallpaper_by_x86basedhuman-d8lemzo.png&#34; width=&#34;70%&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;こんにちはみんな! (^o^)/&lt;br /&gt;
+Halo semua, pernah mengalami emergency boot di linux ? . &lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Fix Error: Insufficient Permissions for Device With ADB</title>
