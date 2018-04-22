@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://okutasan.github.io/post/plymouth-module-missing/</loc>
+    <lastmod>2018-04-22T21:28:44+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://okutasan.github.io/post/emergency-boot-linux/</loc>
     <lastmod>2018-04-17T17:43:30+07:00</lastmod>
   </url>
@@ -54,7 +59,7 @@
   
   <url>
     <loc>https://okutasan.github.io/</loc>
-    <lastmod>2018-04-17T17:43:30+07:00</lastmod>
+    <lastmod>2018-04-22T21:28:44+07:00</lastmod>
   </url>
   
   <url>
@@ -100,13 +105,13 @@
   
   <url>
     <loc>https://okutasan.github.io/tags/linux/</loc>
-    <lastmod>2018-04-17T17:43:30+07:00</lastmod>
+    <lastmod>2018-04-22T21:28:44+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://okutasan.github.io/post/</loc>
-    <lastmod>2018-04-17T17:43:30+07:00</lastmod>
+    <lastmod>2018-04-22T21:28:44+07:00</lastmod>
     <priority>0</priority>
   </url>
   
