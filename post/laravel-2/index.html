@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Plymouth Module Missing</title>
-  <meta property="og:title" content="Plymouth Module Missing" />
-  <meta name="twitter:title" content="Plymouth Module Missing" />
-  <meta name="description" content="Sudahlah Aku Pasrah">
-  <meta property="og:description" content="Sudahlah Aku Pasrah">
-  <meta name="twitter:description" content="Sudahlah Aku Pasrah">
+  <title>Belajar Laravel #1.1</title>
+  <meta property="og:title" content="Belajar Laravel #1.1" />
+  <meta name="twitter:title" content="Belajar Laravel #1.1" />
+  <meta name="description" content="MO DAIJOBU, NAZETTE... WATASHIGA KITA!">
+  <meta property="og:description" content="MO DAIJOBU, NAZETTE... WATASHIGA KITA!">
+  <meta name="twitter:description" content="MO DAIJOBU, NAZETTE... WATASHIGA KITA!">
   <meta name="author" content="Okutasan"/>
   <link href='https://okutasan.github.io/img/avatar-favicon.png' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://okutasan.github.io/img/avatar-icon2.png" />
@@ -18,12 +18,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@okta_tekak" />
   <meta name="twitter:creator" content="@okta_tekak" />
-  <meta property="og:url" content="https://okutasan.github.io/post/plymouth-module-missing/" />
+  <meta property="og:url" content="https://okutasan.github.io/post/laravel-2/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Mas Shiro" />
 
   <meta name="generator" content="Hugo 0.49.1" />
-  <link rel="canonical" href="https://okutasan.github.io/post/plymouth-module-missing/" />
+  <link rel="canonical" href="https://okutasan.github.io/post/laravel-2/" />
   <link rel="alternate" href="https://okutasan.github.io/index.xml" type="application/rss+xml" title="Mas Shiro">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -186,21 +186,21 @@ if (!doNotTrack) {
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
-              <h1>Plymouth Module Missing</h1>
+              <h1>Belajar Laravel #1.1</h1>
                 
                   
-                    <h2 class="post-subheading">Sudahlah Aku Pasrah</h2>
+                    <h2 class="post-subheading">MO DAIJOBU, NAZETTE... WATASHIGA KITA!</h2>
                   
                 
                 
                   <span class="post-meta">
   
   
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on October 7, 2018
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on October 12, 2018
   
   
   &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 1 minutes (91 words)
+  <i class="fa fa-clock-o"></i> 2 minutes (358 words)
   
   
 </span>
@@ -220,20 +220,57 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p><img src="https://cn.pling.com/img/f/7/b/4/3d11483df3d7c1a3664974198fb6d964c499.gif" width="30%"></p>
+        <p><img src="/img/midoriya.png" width="80%"><br />
+こんにちはみんな! (^o^)/<br />
+Halo semua, yatta setelah mencoba beberapa kali dan gagal akhirnya saya bisa memasang laravel pada mesin linux Xubuntu 18.04 saya. Nah ini adalah beberapa langkah yang saya lakukan.</p>
 
-<p>こんにちはみんな! (^o^)/
-Halo semua, jadi saat saya ingin merubah plymouth terjadi eror seperti ini</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> update-initramfs: Generating /boot/initrd.img-4.4.0-87-generic 
- W: plymouth module <span class="o">(</span>/usr/lib/x86_64-linux-gnu/plymouth//two-step.so<span class="o">)</span> missing, skipping that theme</code></pre></div>
-<p>Sebelumnya yang belum tau pylmouth itu apa , jadi plymouth adalah animasi saat kita boot linux.
-Nah salah satu yang saya coba pakai adalah plymouth Ene Kagerou Project  di <a href="https://www.gnome-look.org/p/1187464/">sini</a>.</p>
+<p><strong>1. Install Web Server dan PHP</strong></p>
 
-<h4 id="cara-mengatasinya">Cara Mengatasinya</h4>
+<p>Oke sebelum menginstall laravel kita harus menyiapkan web server apache dan juga php. Pada linux bisa menggunakan LAMP ataupun bisa langsung kita menginstall kebutuhan tersebut secara manual.<br />
+Kali ini saya menginstallnya secara manual menggunakan apt. Ketikan perintah berikut pada terminal.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ sudo add-apt-repository ppa:ondrej/php
+$ sudo apt-get update</code></pre></div>
+<p>Kemudian install php, direkomendasikan versi php 7.0 keatas ya. Kali ini saya pakainya yang php 7.2.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ sudo apt-get install apache2 libapache2-mod-php7.2 php7.2 php7.2-xml php7.2-gd php7.2-opcache php7.2-mbstring php7.2-zip</code></pre></div>
+<p>Cek versi phpnya dengan cara berikut.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ php --version</code></pre></div>
+<p>dan pastikan versinya benar.
+<img src="/img/laravel/phpversion.png" alt="PHP Version" /></p>
 
-<p>Oke cara mengatasinya adalah buka terminal dan ketikan perintah berikut.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> $ sudo apt-get install plymouth-themes</code></pre></div>
-<p>Nah silahkan di update initramfsnya maka tidak akan eror lagi ^^.</p>
+<p><strong>2. Install Composer</strong></p>
+
+<p>Nah kalau sudah install yang dibutuhkan sekarang install composernya.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ sudo apt-get install curl
+$ curl –sS https://getcomposer.org/installer <span class="p">|</span> php
+$ sudo mv composer.phar /usr/local/bin/composer</code></pre></div>
+<p>Kemudian cek dengan mengetik perintah <code>composer</code> pada terminal maka akan muncul tampilan kayak gini berarti sudah siap digunakan si composernya.
+<img src="/img/laravel/composerconsole.png" alt="Composer" /></p>
+
+<p><strong>3. Install Laravel</strong>
+Nah ini saatnya install laravel, caranya ketikan perintah berikut pada terminal console kesayangan.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ composer global require <span class="s2">&#34;laravel/installer&#34;</span></code></pre></div>
+<p>Perintah ini akan menginstall laravel secara global pada mesin linux kita.</p>
+
+<p>Setting path laravel pada shell kesayangan anda. Kalau saya pakai shell zsh maka tinggal buka file <code>.zshrc</code>.<br />
+Jika kalian pakai bash buka saja file <code>.bashrc</code>.
+Kemudian pastekan lokasi laravelnya.<br />
+Kalau di punyaku laravelnya ada di <code>$HOME/.config/composer/vendor/bin</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">/.config/composer/vendor/bin:</span><span class="nv">$PATH</span><span class="s2">&#34;</span></code></pre></div>
+<p>Cek dengan ketik perintah <code>laravel</code> maka akan keluar seperti ini.
+<img src="/img/laravel/laravelyey.png" alt="Yey" /></p>
+
+<p><strong>4. Buat Projectnya</strong>
+Kalau sudah sukses install laravelnya saatnya buat projectnya. Ketikan perintah berikut.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ laravel new blog</code></pre></div>
+<p>Ganti <code>blog</code> dengan nama project kamu ya. Proses ini biasanya makan waktu tergantung koneksi internetmu.<br />
+Jika sudah selesai masuk ke dalam directory projectnya.
+Kalau sudah sukses install laravelnya saatnya buat projectnya. Ketikan perintah berikut.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ <span class="nb">cd</span> blog</code></pre></div>
+<p>Untuk menjalankan laravel bisa menggunakan Built-In Web Server atau setting pada apache. Untuk saat ini saya menggunakan yang pertama. nah ketikan perintah dibawah</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ php artisan serve</code></pre></div>
+<p>lalu buka browser dan ketikan url <code>http://localhost:8000</code> atau <code>http://127.0.0.1:8000</code><br />
+Maka tampil kayak gini di browsernya
+<img src="/img/laravel/laravel.PNG" alt="xampp" /></p>
 
 <p>Semoga catatan belajar saya ini bermanfaat.<br />
 <img src="/img/docker/cute.jpg" width="70%">
@@ -244,13 +281,9 @@ Nah salah satu yang saya coba pakai adalah plymouth Ene Kagerou Project  di <a h
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://okutasan.github.io/post/emergency-boot-linux/" data-toggle="tooltip" data-placement="top" title="Emergency Boot Linux">&larr; Previous Post</a>
+              <a href="https://okutasan.github.io/post/plymouth-module-missing/" data-toggle="tooltip" data-placement="top" title="Plymouth Module Missing">&larr; Previous Post</a>
             </li>
           
-          
-            <li class="next">
-              <a href="https://okutasan.github.io/post/laravel-2/" data-toggle="tooltip" data-placement="top" title="Belajar Laravel #1.1">Next Post &rarr;</a>
-            </li>
           
         </ul>
       

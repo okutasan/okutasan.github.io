@@ -5,10 +5,21 @@
     <link>https://okutasan.github.io/tags/linux/</link>
     <description>Recent content in Linux on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 07 Oct 2018 20:13:06 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 12 Oct 2018 22:39:05 +0700</lastBuildDate>
     
 	<atom:link href="https://okutasan.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Belajar Laravel #1.1</title>
+      <link>https://okutasan.github.io/post/laravel-2/</link>
+      <pubDate>Fri, 12 Oct 2018 22:39:05 +0700</pubDate>
+      
+      <guid>https://okutasan.github.io/post/laravel-2/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.github.io/img/midoriya.png&#34; width=&#34;80%&#34;&gt;&lt;br /&gt;
+こんにちはみんな! (^o^)/&lt;br /&gt;
+Halo semua, yatta setelah mencoba beberapa kali dan gagal akhirnya saya bisa memasang laravel pada mesin linux Xubuntu 18.04 saya. Nah ini adalah beberapa langkah yang saya lakukan.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Plymouth Module Missing</title>
