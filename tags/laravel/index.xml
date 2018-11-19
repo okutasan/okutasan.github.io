@@ -5,10 +5,21 @@
     <link>https://okutasan.github.io/tags/laravel/</link>
     <description>Recent content in Laravel on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 12 Oct 2018 22:39:05 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 19 Nov 2018 04:15:43 +0700</lastBuildDate>
     
 	<atom:link href="https://okutasan.github.io/tags/laravel/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Laradock</title>
+      <link>https://okutasan.github.io/post/laravel-3/</link>
+      <pubDate>Mon, 19 Nov 2018 04:15:43 +0700</pubDate>
+      
+      <guid>https://okutasan.github.io/post/laravel-3/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.github.io/img/laravel/laradock.jpg&#34; width=&#34;95%&#34;&gt;&lt;br /&gt;
+こんにちはみんな! (^o^)/&lt;br /&gt;
+Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel&lt;/code&gt; menggunakan &lt;code&gt;docker&lt;/code&gt; atau biasa disebut &lt;strong&gt;&lt;code&gt;Laradock&lt;/code&gt;&lt;/strong&gt;. Apa keuntungannya jika kita memakai laradock ? &lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Belajar Laravel #1.1</title>

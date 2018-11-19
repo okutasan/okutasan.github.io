@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>Belajar Laravel #1.1</title>
-  <meta property="og:title" content="Belajar Laravel #1.1" />
-  <meta name="twitter:title" content="Belajar Laravel #1.1" />
-  <meta name="description" content="MO DAIJOBU, NAZETTE... WATASHIGA KITA!">
-  <meta property="og:description" content="MO DAIJOBU, NAZETTE... WATASHIGA KITA!">
-  <meta name="twitter:description" content="MO DAIJOBU, NAZETTE... WATASHIGA KITA!">
+  <title>Laradock</title>
+  <meta property="og:title" content="Laradock" />
+  <meta name="twitter:title" content="Laradock" />
+  <meta name="description" content="Setup laravel tanpa lara">
+  <meta property="og:description" content="Setup laravel tanpa lara">
+  <meta name="twitter:description" content="Setup laravel tanpa lara">
   <meta name="author" content="Okutasan"/>
   <link href='https://okutasan.github.io/img/avatar-favicon.png' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://okutasan.github.io/img/avatar-icon2.png" />
@@ -18,12 +18,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@okta_tekak" />
   <meta name="twitter:creator" content="@okta_tekak" />
-  <meta property="og:url" content="https://okutasan.github.io/post/laravel-2/" />
+  <meta property="og:url" content="https://okutasan.github.io/post/laravel-3/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Mas Shiro" />
 
   <meta name="generator" content="Hugo 0.49.2" />
-  <link rel="canonical" href="https://okutasan.github.io/post/laravel-2/" />
+  <link rel="canonical" href="https://okutasan.github.io/post/laravel-3/" />
   <link rel="alternate" href="https://okutasan.github.io/index.xml" type="application/rss+xml" title="Mas Shiro">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -186,21 +186,21 @@ if (!doNotTrack) {
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
-              <h1>Belajar Laravel #1.1</h1>
+              <h1>Laradock</h1>
                 
                   
-                    <h2 class="post-subheading">MO DAIJOBU, NAZETTE... WATASHIGA KITA!</h2>
+                    <h2 class="post-subheading">Setup laravel tanpa lara</h2>
                   
                 
                 
                   <span class="post-meta">
   
   
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on October 12, 2018
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on November 19, 2018
   
   
   &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 2 minutes (358 words)
+  <i class="fa fa-clock-o"></i> 3 minutes (578 words)
   
   
 </span>
@@ -220,57 +220,108 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p><img src="/img/midoriya.png" width="80%"><br />
+        <p><img src="/img/laravel/laradock.jpg" width="95%"><br />
 こんにちはみんな! (^o^)/<br />
-Halo semua, yatta setelah mencoba beberapa kali dan gagal akhirnya saya bisa memasang laravel pada mesin linux Xubuntu 18.04 saya. Nah ini adalah beberapa langkah yang saya lakukan.</p>
+Halo, kali ini saya akan berbagi cara setup lingkungan kerja <code>laravel</code> menggunakan <code>docker</code> atau biasa disebut <strong><code>Laradock</code></strong>. Apa keuntungannya jika kita memakai laradock ? </p>
 
-<p><strong>1. Install Web Server dan PHP</strong></p>
+<p>Kalau untuk saya sendiri pada sisi kepraktisannya, dimana semua kebutuhan untuk lingkungan laravel sudah disediakan oleh laradock dan juga lingkungan kerja atau servernya memakai container didalam docker.</p>
 
-<p>Oke sebelum menginstall laravel kita harus menyiapkan web server apache dan juga php. Pada linux bisa menggunakan LAMP ataupun bisa langsung kita menginstall kebutuhan tersebut secara manual.<br />
-Kali ini saya menginstallnya secara manual menggunakan apt. Ketikan perintah berikut pada terminal.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ sudo add-apt-repository ppa:ondrej/php
-$ sudo apt-get update</code></pre></div>
-<p>Kemudian install php, direkomendasikan versi php 7.0 keatas ya. Kali ini saya pakainya yang php 7.2.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ sudo apt-get install apache2 libapache2-mod-php7.2 php7.2 php7.2-xml php7.2-gd php7.2-opcache php7.2-mbstring php7.2-zip</code></pre></div>
-<p>Cek versi phpnya dengan cara berikut.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ php --version</code></pre></div>
-<p>dan pastikan versinya benar.
-<img src="/img/laravel/phpversion.png" alt="PHP Version" /></p>
+<p>Jadi jika ada masalah tidak mempengaruhi sistem linux karena si server untuk laravel ada didalam container docker.</p>
 
-<p><strong>2. Install Composer</strong></p>
+<p>Keuntungan yang lain lingkungan kerja dalam conatiner laradock sudah terdapat tools seperti : PHP CLI - Composer - Git - Linuxbrew - Node - V8JS - Gulp - SQLite - xDebug - Envoy - Deployer - Vim - Yarn - SOAP - Drush. Sehingga kita tidak perlu menginstall satu&rdquo; lagi.</p>
 
-<p>Nah kalau sudah install yang dibutuhkan sekarang install composernya.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ sudo apt-get install curl
-$ curl –sS https://getcomposer.org/installer <span class="p">|</span> php
-$ sudo mv composer.phar /usr/local/bin/composer</code></pre></div>
-<p>Kemudian cek dengan mengetik perintah <code>composer</code> pada terminal maka akan muncul tampilan kayak gini berarti sudah siap digunakan si composernya.
-<img src="/img/laravel/composerconsole.png" alt="Composer" /></p>
+<p>Untuk fitur laradock bisa dilihat pada situs <a href="https://laradock.io/introduction/"><strong>Laradock</strong></a>.</p>
 
-<p><strong>3. Install Laravel</strong>
-Nah ini saatnya install laravel, caranya ketikan perintah berikut pada terminal console kesayangan.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ composer global require <span class="s2">&#34;laravel/installer&#34;</span></code></pre></div>
-<p>Perintah ini akan menginstall laravel secara global pada mesin linux kita.</p>
+<p>Jika masih bingung lebih baik dicoba saja, nanti pasti kamu akan mengerti enaknya lingkungan laradock ini hhe.</p>
 
-<p>Setting path laravel pada shell kesayangan anda. Kalau saya pakai shell zsh maka tinggal buka file <code>.zshrc</code>.<br />
-Jika kalian pakai bash buka saja file <code>.bashrc</code>.
-Kemudian pastekan lokasi laravelnya.<br />
-Kalau di punyaku laravelnya ada di <code>$HOME/.config/composer/vendor/bin</code>.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$HOME</span><span class="s2">/.config/composer/vendor/bin:</span><span class="nv">$PATH</span><span class="s2">&#34;</span></code></pre></div>
-<p>Cek dengan ketik perintah <code>laravel</code> maka akan keluar seperti ini.
-<img src="/img/laravel/laravelyey.png" alt="Yey" /></p>
+<h4 id="install-git">Install GIT</h4>
 
-<p><strong>4. Buat Projectnya</strong>
-Kalau sudah sukses install laravelnya saatnya buat projectnya. Ketikan perintah berikut.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ laravel new blog</code></pre></div>
-<p>Ganti <code>blog</code> dengan nama project kamu ya. Proses ini biasanya makan waktu tergantung koneksi internetmu.<br />
-Jika sudah selesai masuk ke dalam directory projectnya.
-Kalau sudah sukses install laravelnya saatnya buat projectnya. Ketikan perintah berikut.</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ <span class="nb">cd</span> blog</code></pre></div>
-<p>Untuk menjalankan laravel bisa menggunakan Built-In Web Server atau setting pada apache. Untuk saat ini saya menggunakan yang pertama. nah ketikan perintah dibawah</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ php artisan serve</code></pre></div>
-<p>lalu buka browser dan ketikan url <code>http://localhost:8000</code> atau <code>http://127.0.0.1:8000</code><br />
-Maka tampil kayak gini di browsernya
-<img src="/img/laravel/laravel.PNG" alt="xampp" /></p>
+<p>Pertama kamu install git dengan cara ketikan perintah berikut pada terminal</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">sudo apt install git</code></pre></div>
+<p>Tunggu sampai selesai, jika sudah cek instalasi git dengan ketik perintah berikut pada terminal</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">git --version</code></pre></div>
+<p>Maka akan tampil seperti berikut <img src="/img/gitver.png" alt="git" /></p>
+
+<h4 id="install-docker">Install Docker</h4>
+
+<p>Untuk instalasi <code>Docker</code> pada <code>Ubuntu</code> silahkan cek post saya <a href="https://okutasan.github.io/post/docker-1/"><strong>Instalasi Docker</strong></a>.</p>
+
+<p>Jika kamu menggunakan selain Ubuntu 16.04 tinggal diedit saja pada bagian <em><code>xenial</code></em> dengan versi <code>Ubuntu</code> kamu</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ sudo add-apt-repository <span class="se">\
+</span><span class="se"></span>   <span class="s2">&#34;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+</span><span class="s2">   </span><span class="k">$(</span>xenial<span class="k">)</span><span class="s2"> \
+</span><span class="s2">   stable&#34;</span></code></pre></div>
+<p>Misal ubuntu 18.04 maka <code>bionic</code> dan seterusnya.<br />
+Cek instalasi docker dengan perintah <code>docker</code> maka akan seperti ini <img src="/img/docker/dockercek.png" alt="docker" /></p>
+
+<h4 id="install-docker-compose">Install Docker Compose</h4>
+
+<ol>
+<li><p>Buka terminal console dan ketikan perintah</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">sudo curl -L https://github.com/docker/compose/releases/download/1.23.1/docker-compose-<span class="k">$(</span>uname -s<span class="k">)</span>-<span class="k">$(</span>uname -m<span class="k">)</span> -o /usr/local/bin/docker-compose</code></pre></div></li>
+
+<li><p>Ubah <code>docker-compose</code> menjadi executable</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">sudo chmod +x /usr/local/bin/docker-compose</code></pre></div></li>
+
+<li><p>Cek instalasi <code>docker-compose</code> dengan cara</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">docker-compose --version</code></pre></div>
+<p>Jika berhasil hasilnya seperti ini <img src="/img/docker/dockercompose.png" alt="docker-compose" /></p></li>
+</ol>
+
+<h4 id="workspace-laravel">Workspace Laravel</h4>
+
+<p>Nah jika kita sudah menyiapkan git, docker dan juga docker compose sekarang kita menyiapkan lingkungan kerja laravel kita.</p>
+
+<p>Masih semangat kan ??? 😁</p>
+
+<ol>
+<li><p>Buat folder untuk lingkungan kerja laradock dengan cara buka terminal dan ketik</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">mkdir laravel-projects</code></pre></div>
+<p>Masuk kedalam directory tersebut</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> laravel-projects</code></pre></div></li>
+
+<li><p>Clone laradock dengan ketik perintah berikut pada terminal</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">git clone https://github.com/Laradock/laradock.git</code></pre></div>
+<p>Tunggu proses cloning sampai selesai.</p></li>
+
+<li><p>Masuk ke folder <strong>laradock</strong> yang sudah dicloning dengan cara</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">cd</span> laradock</code></pre></div></li>
+
+<li><p>Copy file <em>env-example</em> dan simpan dengan nama <em>.env</em></p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">mv env-example .env</code></pre></div></li>
+
+<li><p>Aktifkan container <strong><em>laradock</em></strong> nya</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">docker-compose up -d nginx mysql phpmyadmin redis workspace</code></pre></div>
+<p>Biasanya ini memakan waktu agak lama tergantung koneksi internet. Tapi ini cuma dilakukan diawal, nantinya kita kamu tidak perlu mendownload lagi jika mengaktifkan <code>container</code> selanjutnya.</p></li>
+
+<li><p>Buka file <strong>.env</strong> kemudian tambahkan script berikut</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nv">DB_HOST</span><span class="o">=</span>mysql
+<span class="nv">REDIS_HOST</span><span class="o">=</span>redis
+<span class="nv">QUEUE_HOST</span><span class="o">=</span>beanstalkd</code></pre></div></li>
+
+<li><p>Masih dalam directory <code>laravel-projects/laradock</code>, jalankan perintah berikut untuk masuk ke container yang telah dibuat.</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">docker-compose <span class="nb">exec</span> --user<span class="o">=</span>laradock workspace bash</code></pre></div>
+<p>Jika sudah masuk ke container workspace yang sudah kita buat seperti ini <img src="/img/containerlaradock.png" alt="container-laradock" />
+Pastikan posisi sudah berada pada <code>/var/www/</code> didalam laradock container seperti diatas ya. Selanjutnya kita buat directory <strong><em>public</em></strong> dimana di dalam directory ini lah kita akan menginstall laravel kita. Buat directory <strong><em>public</em></strong> dan masuk ke dalam directorynya dengan cara</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">mkdir public
+<span class="nb">cd</span> public</code></pre></div></li>
+</ol>
+
+<h4 id="instalasi-laravel">Instalasi Laravel</h4>
+
+<p>Untuk instalasi laravel membutuhkan composer tapi pada lingkungan laradock sudah tersedia semua jadi tinggal pakai saja 😁. Pastikan posisi sudah berada di container laradock dan sudah masuk directory <strong><em>/var/www/public</em></strong>.</p>
+
+<ol>
+<li><p>Lalu ketikan perintah berikut untuk instalasi laravel installer</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">composer global require <span class="s2">&#34;laravel/installer&#34;</span></code></pre></div>
+<p>Tunggu proses sampai selesai. Biasanya butuh waktu tergantung koneksi jaringan kita.</p></li>
+
+<li><p>Setelah selesai, sekarang kita buat aplikasi laravelnya. Ketik perintah ini</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">laravel new blog</code></pre></div>
+<p><strong>blog</strong> disini silahkan ganti dengan nama project/aplikasi kamu.</p></li>
+
+<li><p>Jika sudah silahkan buka browser arahkan ke alamat <a href="http://localhost/blog/public">http://localhost/blog/public</a>. Jika berhasil maka tampilan akan seperti ini <img src="/img/laravel/Laravel.png" alt="laravel" /></p></li>
+</ol>
 
 <p>Semoga catatan belajar saya ini bermanfaat.<br />
 <img src="/img/docker/cute.jpg" width="70%">
@@ -281,13 +332,9 @@ Maka tampil kayak gini di browsernya
         <ul class="pager blog-pager">
           
             <li class="previous">
-              <a href="https://okutasan.github.io/post/plymouth-module-missing/" data-toggle="tooltip" data-placement="top" title="Plymouth Module Missing">&larr; Previous Post</a>
+              <a href="https://okutasan.github.io/post/laravel-2/" data-toggle="tooltip" data-placement="top" title="Belajar Laravel #1.1">&larr; Previous Post</a>
             </li>
           
-          
-            <li class="next">
-              <a href="https://okutasan.github.io/post/laravel-3/" data-toggle="tooltip" data-placement="top" title="Laradock">Next Post &rarr;</a>
-            </li>
           
         </ul>
       
