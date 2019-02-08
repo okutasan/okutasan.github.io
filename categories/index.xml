@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mas Shiro</title>
-    <link>https://okutasan.github.io/categories/</link>
+    <link>https://okutasan.web.id/categories/</link>
     <description>Recent content in Categories on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://okutasan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://okutasan.web.id/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

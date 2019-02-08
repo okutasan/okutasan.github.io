@@ -2,110 +2,110 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mas Shiro</title>
-    <link>https://okutasan.github.io/tags/</link>
+    <link>https://okutasan.web.id/tags/</link>
     <description>Recent content in Tags on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 29 Mar 2018 01:36:25 +0700</lastBuildDate>
     
-	<atom:link href="https://okutasan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://okutasan.web.id/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Android</title>
-      <link>https://okutasan.github.io/tags/android/</link>
+      <link>https://okutasan.web.id/tags/android/</link>
       <pubDate>Thu, 29 Mar 2018 01:36:25 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/tags/android/</guid>
+      <guid>https://okutasan.web.id/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Django</title>
-      <link>https://okutasan.github.io/tags/django/</link>
+      <link>https://okutasan.web.id/tags/django/</link>
       <pubDate>Tue, 20 Feb 2018 16:24:44 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/tags/django/</guid>
+      <guid>https://okutasan.web.id/tags/django/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>https://okutasan.github.io/tags/docker/</link>
+      <link>https://okutasan.web.id/tags/docker/</link>
       <pubDate>Thu, 15 Mar 2018 05:15:01 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/tags/docker/</guid>
+      <guid>https://okutasan.web.id/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Install</title>
-      <link>https://okutasan.github.io/tags/install/</link>
+      <link>https://okutasan.web.id/tags/install/</link>
       <pubDate>Thu, 29 Mar 2018 00:24:51 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/tags/install/</guid>
+      <guid>https://okutasan.web.id/tags/install/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>https://okutasan.github.io/tags/java/</link>
+      <link>https://okutasan.web.id/tags/java/</link>
       <pubDate>Thu, 29 Mar 2018 00:24:51 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/tags/java/</guid>
+      <guid>https://okutasan.web.id/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Laravel</title>
-      <link>https://okutasan.github.io/tags/laravel/</link>
+      <link>https://okutasan.web.id/tags/laravel/</link>
       <pubDate>Mon, 19 Nov 2018 04:15:43 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/tags/laravel/</guid>
+      <guid>https://okutasan.web.id/tags/laravel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://okutasan.github.io/tags/linux/</link>
+      <link>https://okutasan.web.id/tags/linux/</link>
       <pubDate>Mon, 19 Nov 2018 04:15:43 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/tags/linux/</guid>
+      <guid>https://okutasan.web.id/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://okutasan.github.io/tags/python/</link>
+      <link>https://okutasan.web.id/tags/python/</link>
       <pubDate>Tue, 20 Feb 2018 16:24:44 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/tags/python/</guid>
+      <guid>https://okutasan.web.id/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Relax</title>
-      <link>https://okutasan.github.io/tags/relax/</link>
+      <link>https://okutasan.web.id/tags/relax/</link>
       <pubDate>Sat, 17 Mar 2018 23:09:48 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/tags/relax/</guid>
+      <guid>https://okutasan.web.id/tags/relax/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tips</title>
-      <link>https://okutasan.github.io/tags/tips/</link>
+      <link>https://okutasan.web.id/tags/tips/</link>
       <pubDate>Sun, 07 Oct 2018 20:13:06 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/tags/tips/</guid>
+      <guid>https://okutasan.web.id/tags/tips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Windows</title>
-      <link>https://okutasan.github.io/tags/windows/</link>
+      <link>https://okutasan.web.id/tags/windows/</link>
       <pubDate>Mon, 19 Feb 2018 00:09:16 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/tags/windows/</guid>
+      <guid>https://okutasan.web.id/tags/windows/</guid>
       <description></description>
     </item>
     

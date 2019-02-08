@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Install on Mas Shiro</title>
-    <link>https://okutasan.github.io/tags/install/</link>
+    <link>https://okutasan.web.id/tags/install/</link>
     <description>Recent content in Install on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 29 Mar 2018 00:24:51 +0700</lastBuildDate>
     
-	<atom:link href="https://okutasan.github.io/tags/install/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://okutasan.web.id/tags/install/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Install Java Linux Mint</title>
-      <link>https://okutasan.github.io/post/install-java-linux-mint/</link>
+      <link>https://okutasan.web.id/post/install-java-linux-mint/</link>
       <pubDate>Thu, 29 Mar 2018 00:24:51 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/post/install-java-linux-mint/</guid>
+      <guid>https://okutasan.web.id/post/install-java-linux-mint/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://techaeris.com/wp-content/uploads/2016/01/Java-logo-png.png&#34; width=&#34;75%&#34;&gt;&lt;br /&gt;
 こんにちはみんな! (^o^)/&lt;br /&gt;
 Selamat malam, Ini adalah catatan belajar &lt;code&gt;Install Java Pada Linux Mint&lt;/code&gt; yang saya lakukan. Semoga bermanfaat..&lt;/p&gt;</description>

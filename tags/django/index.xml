@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Django on Mas Shiro</title>
-    <link>https://okutasan.github.io/tags/django/</link>
+    <link>https://okutasan.web.id/tags/django/</link>
     <description>Recent content in Django on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 20 Feb 2018 16:24:44 +0700</lastBuildDate>
     
-	<atom:link href="https://okutasan.github.io/tags/django/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://okutasan.web.id/tags/django/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Belajar Django #1</title>
-      <link>https://okutasan.github.io/post/django-1/</link>
+      <link>https://okutasan.web.id/post/django-1/</link>
       <pubDate>Tue, 20 Feb 2018 16:24:44 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/post/django-1/</guid>
+      <guid>https://okutasan.web.id/post/django-1/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://i0.wp.com/samueleresca.net/wp-content/uploads/2015/12/python-django-logo.jpg?ssl=1&#34; width=&#34;75%&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;こんにちはみんな! (^o^)/&lt;br /&gt;

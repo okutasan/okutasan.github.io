@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Mas Shiro</title>
-    <link>https://okutasan.github.io/tags/linux/</link>
+    <link>https://okutasan.web.id/tags/linux/</link>
     <description>Recent content in Linux on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 19 Nov 2018 04:15:43 +0700</lastBuildDate>
     
-	<atom:link href="https://okutasan.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://okutasan.web.id/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Laradock</title>
-      <link>https://okutasan.github.io/post/laravel-3/</link>
+      <link>https://okutasan.web.id/post/laravel-3/</link>
       <pubDate>Mon, 19 Nov 2018 04:15:43 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/post/laravel-3/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.github.io/img/laravel/laradock.jpg&#34; width=&#34;95%&#34;&gt;&lt;br /&gt;
+      <guid>https://okutasan.web.id/post/laravel-3/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/laravel/laradock.jpg&#34; width=&#34;95%&#34;&gt;&lt;br /&gt;
 こんにちはみんな! (^o^)/&lt;br /&gt;
-Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel&lt;/code&gt; menggunakan &lt;code&gt;docker&lt;/code&gt; atau biasa disebut &lt;strong&gt;&lt;code&gt;Laradock&lt;/code&gt;&lt;/strong&gt;. Apa keuntungannya jika kita memakai laradock ? &lt;/p&gt;</description>
+Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel&lt;/code&gt; menggunakan &lt;code&gt;docker&lt;/code&gt; atau biasa disebut &lt;strong&gt;&lt;code&gt;Laradock&lt;/code&gt;&lt;/strong&gt;. Apa keuntungannya jika kita memakai laradock ?&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Belajar Laravel #1.1</title>
-      <link>https://okutasan.github.io/post/laravel-2/</link>
+      <link>https://okutasan.web.id/post/laravel-2/</link>
       <pubDate>Fri, 12 Oct 2018 22:39:05 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/post/laravel-2/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.github.io/img/midoriya.png&#34; width=&#34;80%&#34;&gt;&lt;br /&gt;
+      <guid>https://okutasan.web.id/post/laravel-2/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/midoriya.png&#34; width=&#34;80%&#34;&gt;&lt;br /&gt;
 こんにちはみんな! (^o^)/&lt;br /&gt;
 Halo semua, yatta setelah mencoba beberapa kali dan gagal akhirnya saya bisa memasang laravel pada mesin linux Xubuntu 18.04 saya. Nah ini adalah beberapa langkah yang saya lakukan.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Plymouth Module Missing</title>
-      <link>https://okutasan.github.io/post/plymouth-module-missing/</link>
+      <link>https://okutasan.web.id/post/plymouth-module-missing/</link>
       <pubDate>Sun, 07 Oct 2018 20:13:06 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/post/plymouth-module-missing/</guid>
+      <guid>https://okutasan.web.id/post/plymouth-module-missing/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://cn.pling.com/img/f/7/b/4/3d11483df3d7c1a3664974198fb6d964c499.gif&#34; width=&#34;30%&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;こんにちはみんな! (^o^)/
@@ -46,34 +46,34 @@ Halo semua, jadi saat saya ingin merubah plymouth terjadi eror seperti ini&lt;/p
     
     <item>
       <title>Emergency Boot Linux</title>
-      <link>https://okutasan.github.io/post/emergency-boot-linux/</link>
+      <link>https://okutasan.web.id/post/emergency-boot-linux/</link>
       <pubDate>Tue, 17 Apr 2018 17:43:30 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/post/emergency-boot-linux/</guid>
+      <guid>https://okutasan.web.id/post/emergency-boot-linux/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://orig00.deviantart.net/92c1/f/2015/071/4/2/linuxmint_flat_wallpaper_by_x86basedhuman-d8lemzo.png&#34; width=&#34;70%&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;こんにちはみんな! (^o^)/&lt;br /&gt;
-Halo semua, pernah mengalami emergency boot di linux ? . &lt;/p&gt;</description>
+Halo semua, pernah mengalami emergency boot di linux ? .&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Fix Error: Insufficient Permissions for Device With ADB</title>
-      <link>https://okutasan.github.io/post/eror-insufficient-permissions-for-device-with-adb/</link>
+      <link>https://okutasan.web.id/post/eror-insufficient-permissions-for-device-with-adb/</link>
       <pubDate>Thu, 29 Mar 2018 01:36:25 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/post/eror-insufficient-permissions-for-device-with-adb/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.github.io/img/java/androidstudio.png&#34; width=&#34;50%&#34;&gt;&lt;/p&gt;
+      <guid>https://okutasan.web.id/post/eror-insufficient-permissions-for-device-with-adb/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/java/androidstudio.png&#34; width=&#34;50%&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;こんにちはみんな! (^o^)/
-Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikasi yang saya gunakan adalah Android Studio yang run pada Linux Mint. &lt;/p&gt;</description>
+Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikasi yang saya gunakan adalah Android Studio yang run pada Linux Mint.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Install Java Linux Mint</title>
-      <link>https://okutasan.github.io/post/install-java-linux-mint/</link>
+      <link>https://okutasan.web.id/post/install-java-linux-mint/</link>
       <pubDate>Thu, 29 Mar 2018 00:24:51 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/post/install-java-linux-mint/</guid>
+      <guid>https://okutasan.web.id/post/install-java-linux-mint/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://techaeris.com/wp-content/uploads/2016/01/Java-logo-png.png&#34; width=&#34;75%&#34;&gt;&lt;br /&gt;
 こんにちはみんな! (^o^)/&lt;br /&gt;
 Selamat malam, Ini adalah catatan belajar &lt;code&gt;Install Java Pada Linux Mint&lt;/code&gt; yang saya lakukan. Semoga bermanfaat..&lt;/p&gt;</description>
@@ -81,11 +81,11 @@ Selamat malam, Ini adalah catatan belajar &lt;code&gt;Install Java Pada Linux Mi
     
     <item>
       <title>Eror Mount Ntfs Di Ubuntu</title>
-      <link>https://okutasan.github.io/post/eror-mount-ntfs/</link>
+      <link>https://okutasan.web.id/post/eror-mount-ntfs/</link>
       <pubDate>Sun, 18 Mar 2018 01:54:33 +0700</pubDate>
       
-      <guid>https://okutasan.github.io/post/eror-mount-ntfs/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.github.io/img/ntfseror.png&#34; width=&#34;90%&#34;&gt;&lt;br /&gt;
+      <guid>https://okutasan.web.id/post/eror-mount-ntfs/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/ntfseror.png&#34; width=&#34;90%&#34;&gt;&lt;br /&gt;
 こんにちはみんな! (^o^)/
 Selamat pagi, Ini adalah catatan tips &lt;code&gt;Eror mount NTFS di Ubuntu&lt;/code&gt; Semoga bermanfaat..&lt;/p&gt;</description>
     </item>
