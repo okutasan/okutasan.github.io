@@ -5,10 +5,22 @@
     <link>https://okutasan.web.id/tags/linux/</link>
     <description>Recent content in Linux on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 19 Nov 2018 04:15:43 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 10 Feb 2019 16:19:19 +0700</lastBuildDate>
     
 	<atom:link href="https://okutasan.web.id/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Catatan Cli</title>
+      <link>https://okutasan.web.id/post/catatan-cli/</link>
+      <pubDate>Sun, 10 Feb 2019 16:19:19 +0700</pubDate>
+      
+      <guid>https://okutasan.web.id/post/catatan-cli/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/cli-thumbnail.png&#34; width=&#34;100%&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;こんにちはみんな! (^o^)/&lt;br /&gt;
+Selamat malam, Ini adalah catatan belajar &lt;code&gt;Command Line Interface&lt;/code&gt; yang saya lakukan. Semoga bermanfaat..&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Laradock</title>
@@ -18,7 +30,7 @@
       <guid>https://okutasan.web.id/post/laravel-3/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/laravel/laradock.jpg&#34; width=&#34;95%&#34;&gt;&lt;br /&gt;
 こんにちはみんな! (^o^)/&lt;br /&gt;
-Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel&lt;/code&gt; menggunakan &lt;code&gt;docker&lt;/code&gt; atau biasa disebut &lt;strong&gt;&lt;code&gt;Laradock&lt;/code&gt;&lt;/strong&gt;. Apa keuntungannya jika kita memakai laradock ?&lt;/p&gt;</description>
+Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel&lt;/code&gt; menggunakan &lt;code&gt;docker&lt;/code&gt; atau biasa disebut &lt;strong&gt;&lt;code&gt;Laradock&lt;/code&gt;&lt;/strong&gt;. Apa keuntungannya jika kita memakai laradock ? &lt;/p&gt;</description>
     </item>
     
     <item>
@@ -53,7 +65,7 @@ Halo semua, jadi saat saya ingin merubah plymouth terjadi eror seperti ini&lt;/p
       <description>&lt;p&gt;&lt;img src=&#34;https://orig00.deviantart.net/92c1/f/2015/071/4/2/linuxmint_flat_wallpaper_by_x86basedhuman-d8lemzo.png&#34; width=&#34;70%&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;こんにちはみんな! (^o^)/&lt;br /&gt;
-Halo semua, pernah mengalami emergency boot di linux ? .&lt;/p&gt;</description>
+Halo semua, pernah mengalami emergency boot di linux ? . &lt;/p&gt;</description>
     </item>
     
     <item>
@@ -65,7 +77,7 @@ Halo semua, pernah mengalami emergency boot di linux ? .&lt;/p&gt;</description>
       <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/java/androidstudio.png&#34; width=&#34;50%&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;こんにちはみんな! (^o^)/
-Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikasi yang saya gunakan adalah Android Studio yang run pada Linux Mint.&lt;/p&gt;</description>
+Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikasi yang saya gunakan adalah Android Studio yang run pada Linux Mint. &lt;/p&gt;</description>
     </item>
     
     <item>

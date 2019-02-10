@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cli on Mas Shiro</title>
+    <link>https://okutasan.web.id/tags/cli/</link>
+    <description>Recent content in Cli on Mas Shiro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 10 Feb 2019 16:19:19 +0700</lastBuildDate>
+    
+	<atom:link href="https://okutasan.web.id/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Catatan Cli</title>
+      <link>https://okutasan.web.id/post/catatan-cli/</link>
+      <pubDate>Sun, 10 Feb 2019 16:19:19 +0700</pubDate>
+      
+      <guid>https://okutasan.web.id/post/catatan-cli/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/cli-thumbnail.png&#34; width=&#34;100%&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;こんにちはみんな! (^o^)/&lt;br /&gt;
+Selamat malam, Ini adalah catatan belajar &lt;code&gt;Command Line Interface&lt;/code&gt; yang saya lakukan. Semoga bermanfaat..&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

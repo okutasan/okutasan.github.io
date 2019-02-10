@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://okutasan.web.id/post/catatan-cli/</loc>
+    <lastmod>2019-02-10T16:19:19+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://okutasan.web.id/post/laravel-3/</loc>
     <lastmod>2018-11-19T04:15:43+07:00</lastmod>
   </url>
@@ -69,7 +74,7 @@
   
   <url>
     <loc>https://okutasan.web.id/</loc>
-    <lastmod>2018-11-19T04:15:43+07:00</lastmod>
+    <lastmod>2019-02-10T16:19:19+07:00</lastmod>
   </url>
   
   <url>
@@ -80,6 +85,12 @@
   
   <url>
     <loc>https://okutasan.web.id/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://okutasan.web.id/tags/cli/</loc>
+    <lastmod>2019-02-10T16:19:19+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -115,13 +126,13 @@
   
   <url>
     <loc>https://okutasan.web.id/tags/linux/</loc>
-    <lastmod>2018-11-19T04:15:43+07:00</lastmod>
+    <lastmod>2019-02-10T16:19:19+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://okutasan.web.id/post/</loc>
-    <lastmod>2018-11-19T04:15:43+07:00</lastmod>
+    <lastmod>2019-02-10T16:19:19+07:00</lastmod>
     <priority>0</priority>
   </url>
   

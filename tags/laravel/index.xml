@@ -18,7 +18,7 @@
       <guid>https://okutasan.web.id/post/laravel-3/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/laravel/laradock.jpg&#34; width=&#34;95%&#34;&gt;&lt;br /&gt;
 こんにちはみんな! (^o^)/&lt;br /&gt;
-Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel&lt;/code&gt; menggunakan &lt;code&gt;docker&lt;/code&gt; atau biasa disebut &lt;strong&gt;&lt;code&gt;Laradock&lt;/code&gt;&lt;/strong&gt;. Apa keuntungannya jika kita memakai laradock ?&lt;/p&gt;</description>
+Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel&lt;/code&gt; menggunakan &lt;code&gt;docker&lt;/code&gt; atau biasa disebut &lt;strong&gt;&lt;code&gt;Laradock&lt;/code&gt;&lt;/strong&gt;. Apa keuntungannya jika kita memakai laradock ? &lt;/p&gt;</description>
     </item>
     
     <item>
@@ -39,7 +39,9 @@ Halo semua, yatta setelah mencoba beberapa kali dan gagal akhirnya saya bisa mem
       
       <guid>https://okutasan.web.id/post/laravel-1/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/laravel/laravelogo.png&#34; width=&#34;75%&#34;&gt;
-Selamat malam, Ini adalah catatan belajar laravel yang saya lakukan. Semoga bermanfaat.&lt;/p&gt;</description>
+Selamat malam, Ini adalah catatan belajar laravel yang saya lakukan. Semoga bermanfaat.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
