@@ -59,7 +59,7 @@
   "headline": "Plymouth Module Missing",
   "description" : "こんにちはみんな! (^o^)\/ Halo semua, jadi saat saya ingin merubah plymouth terjadi eror seperti ini\n",
   "inLanguage" : "en",
-  "wordCount":  55 ,
+  "wordCount":  91 ,
   "datePublished" : "2018-10-07T20:13:06",
   "dateModified" : "2018-10-07T20:13:06",
   "image" : "https:\/\/okutasan.web.id\/img\/avatar-icon2.png",
@@ -294,16 +294,20 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <!-- raw HTML omitted -->
+        <img src="https://cn.pling.com/img/f/7/b/4/3d11483df3d7c1a3664974198fb6d964c499.gif" width="30%">
 <p>こんにちはみんな! (^o^)/
 Halo semua, jadi saat saya ingin merubah plymouth terjadi eror seperti ini</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> update-initramfs: Generating /boot/initrd.img-4.4.0-87-generic 
  W: plymouth module <span class="o">(</span>/usr/lib/x86_64-linux-gnu/plymouth//two-step.so<span class="o">)</span> missing, skipping that theme
 </code></pre></div><p>Sebelumnya yang belum tau pylmouth itu apa , jadi plymouth adalah animasi saat kita boot linux.
 Nah salah satu yang saya coba pakai adalah plymouth Ene Kagerou Project  di <a href="https://www.gnome-look.org/p/1187464/">sini</a>.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<h4 id="cara-mengatasinya">Cara Mengatasinya</h4>
+<p>Oke cara mengatasinya adalah buka terminal dan ketikan perintah berikut.</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"> $ sudo apt-get install plymouth-themes</code></pre></div>
+<p>Nah silahkan di update initramfsnya maka tidak akan eror lagi ^^.</p>
+<p>Semoga catatan belajar saya ini bermanfaat.<br />
+<img src="/img/docker/cute.jpg" width="70%">
+じゃ、また ヾ(＾-＾)ノ</p>
 
         
           <div class="blog-tags">

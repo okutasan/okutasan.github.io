@@ -16,7 +16,7 @@
       <pubDate>Sun, 10 Feb 2019 16:19:19 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/catatan-cli/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;img src=&#34;https://okutasan.web.id/img/cli-thumbnail.png&#34; width=&#34;100%&#34;&gt;
 &lt;p&gt;こんにちはみんな! (^o^)/&lt;br&gt;
 Selamat malam, Ini adalah catatan belajar &lt;code&gt;Command Line Interface&lt;/code&gt; yang saya lakukan. Semoga bermanfaat..&lt;/p&gt;</description>
     </item>
@@ -27,7 +27,7 @@ Selamat malam, Ini adalah catatan belajar &lt;code&gt;Command Line Interface&lt;
       <pubDate>Mon, 19 Nov 2018 04:15:43 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/laravel-3/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/laravel/laradock.jpg&#34; alt=&#34;git&#34;&gt;&lt;br&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/laravel/laradock.jpg&#34; alt=&#34;git|20%&#34;&gt;&lt;br&gt;
 こんにちはみんな! (^o^)/&lt;br&gt;
 Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel&lt;/code&gt; menggunakan &lt;code&gt;docker&lt;/code&gt; atau biasa disebut &lt;strong&gt;&lt;code&gt;Laradock&lt;/code&gt;&lt;/strong&gt;. Apa keuntungannya jika kita memakai laradock ?&lt;/p&gt;</description>
     </item>
@@ -38,7 +38,9 @@ Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel
       <pubDate>Fri, 12 Oct 2018 22:39:05 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/laravel-2/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/midoriya.png&#34; alt=&#34;midoriya&#34; width=&#34;80%&#34;&gt;&lt;/p&gt;   
+こんにちはみんな! (^o^)/   
+Halo semua, yatta setelah mencoba beberapa kali dan gagal akhirnya saya bisa memasang laravel pada mesin linux Xubuntu 18.04 saya. Nah ini adalah beberapa langkah yang saya lakukan.</description>
     </item>
     
     <item>
@@ -47,7 +49,7 @@ Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel
       <pubDate>Sun, 07 Oct 2018 20:13:06 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/plymouth-module-missing/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;img src=&#34;https://cn.pling.com/img/f/7/b/4/3d11483df3d7c1a3664974198fb6d964c499.gif&#34; width=&#34;30%&#34;&gt;
 &lt;p&gt;こんにちはみんな! (^o^)/
 Halo semua, jadi saat saya ingin merubah plymouth terjadi eror seperti ini&lt;/p&gt;</description>
     </item>
@@ -58,7 +60,7 @@ Halo semua, jadi saat saya ingin merubah plymouth terjadi eror seperti ini&lt;/p
       <pubDate>Tue, 17 Apr 2018 17:43:30 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/emergency-boot-linux/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;img src=&#34;https://orig00.deviantart.net/92c1/f/2015/071/4/2/linuxmint_flat_wallpaper_by_x86basedhuman-d8lemzo.png&#34; width=&#34;70%&#34;&gt;
 &lt;p&gt;こんにちはみんな! (^o^)/ &lt;br&gt;
 Halo semua, pernah mengalami emergency boot di linux ? .&lt;/p&gt;</description>
     </item>
@@ -69,7 +71,7 @@ Halo semua, pernah mengalami emergency boot di linux ? .&lt;/p&gt;</description>
       <pubDate>Thu, 29 Mar 2018 01:36:25 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/eror-insufficient-permissions-for-device-with-adb/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;img src=&#34;https://okutasan.web.id/img/java/androidstudio.png&#34; width=&#34;50%&#34;&gt;
 &lt;p&gt;こんにちはみんな! (^o^)/
 Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikasi yang saya gunakan adalah Android Studio yang run pada Linux Mint.&lt;/p&gt;</description>
     </item>
@@ -80,7 +82,9 @@ Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikas
       <pubDate>Thu, 29 Mar 2018 00:24:51 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/install-java-linux-mint/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;img src=&#34;https://techaeris.com/wp-content/uploads/2016/01/Java-logo-png.png&#34; width=&#34;75%&#34;&gt;   
+こんにちはみんな! (^o^)/   
+Selamat malam, Ini adalah catatan belajar ```Install Java Pada Linux Mint``` yang saya lakukan. Semoga bermanfaat..</description>
     </item>
     
     <item>
@@ -89,7 +93,9 @@ Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikas
       <pubDate>Sun, 18 Mar 2018 01:54:33 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/eror-mount-ntfs/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;img src=&#34;https://okutasan.web.id/img/ntfseror.png&#34; width=&#34;90%&#34;&gt;   
+こんにちはみんな! (^o^)/
+Selamat pagi, Ini adalah catatan tips ```Eror mount NTFS di Ubuntu``` Semoga bermanfaat..</description>
     </item>
     
     <item>
@@ -98,7 +104,7 @@ Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikas
       <pubDate>Sat, 17 Mar 2018 23:09:48 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/relax-1/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;img src=&#34;https://okutasan.web.id/img/relax/relax1.jpg&#34; width=&#34;90%&#34;&gt;
 &lt;p&gt;Hello the people of the world (lol). Hahaha.&lt;/p&gt;</description>
     </item>
     
@@ -108,7 +114,7 @@ Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikas
       <pubDate>Thu, 15 Mar 2018 05:15:01 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/docker-1/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;img src=&#34;https://okutasan.web.id/img/docker/dockerhero.jpg&#34; width=&#34;60%&#34;&gt;
 &lt;p&gt;こんにちはみんな! (^o^)/
 Selamat pagi, Ini adalah catatan belajar &lt;code&gt;Docker Portainer&lt;/code&gt; yang saya lakukan. Semoga bermanfaat..&lt;/p&gt;</description>
     </item>
@@ -119,7 +125,7 @@ Selamat pagi, Ini adalah catatan belajar &lt;code&gt;Docker Portainer&lt;/code&g
       <pubDate>Tue, 20 Feb 2018 16:24:44 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/django-1/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
+      <description>&lt;img src=&#34;https://i0.wp.com/samueleresca.net/wp-content/uploads/2015/12/python-django-logo.jpg?ssl=1&#34; width=&#34;75%&#34;&gt;
 &lt;p&gt;こんにちはみんな! (^o^)/&lt;br&gt;
 Selamat malam, Ini adalah catatan belajar &lt;code&gt;Django&lt;/code&gt; yang saya lakukan. Semoga bermanfaat..&lt;/p&gt;</description>
     </item>
@@ -141,7 +147,8 @@ Kali ini saya akan memberikan tips tentang penggunaan &lt;strong&gt;$PATH&lt;/st
       <pubDate>Sat, 17 Feb 2018 02:12:34 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/laravel-1/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;img src=&#34;https://okutasan.web.id/img/laravel/laravelogo.png&#34; width=&#34;75%&#34;&gt;
+Selamat malam, Ini adalah catatan belajar laravel yang saya lakukan. Semoga bermanfaat.</description>
     </item>
     
     <item>
@@ -150,7 +157,7 @@ Kali ini saya akan memberikan tips tentang penggunaan &lt;strong&gt;$PATH&lt;/st
       <pubDate>Sun, 17 Dec 2017 21:34:26 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/post-pertama/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;img src=&#34;https://okutasan.web.id/img/haha.jpg&#34; width=&#34;70%&#34;&gt;</description>
     </item>
     
   </channel>

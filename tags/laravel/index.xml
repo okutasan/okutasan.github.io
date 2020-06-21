@@ -16,7 +16,7 @@
       <pubDate>Mon, 19 Nov 2018 04:15:43 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/laravel-3/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/laravel/laradock.jpg&#34; alt=&#34;git&#34;&gt;&lt;br&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/laravel/laradock.jpg&#34; alt=&#34;git|20%&#34;&gt;&lt;br&gt;
 こんにちはみんな! (^o^)/&lt;br&gt;
 Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel&lt;/code&gt; menggunakan &lt;code&gt;docker&lt;/code&gt; atau biasa disebut &lt;strong&gt;&lt;code&gt;Laradock&lt;/code&gt;&lt;/strong&gt;. Apa keuntungannya jika kita memakai laradock ?&lt;/p&gt;</description>
     </item>
@@ -27,7 +27,9 @@ Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel
       <pubDate>Fri, 12 Oct 2018 22:39:05 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/laravel-2/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/midoriya.png&#34; alt=&#34;midoriya&#34; width=&#34;80%&#34;&gt;&lt;/p&gt;   
+こんにちはみんな! (^o^)/   
+Halo semua, yatta setelah mencoba beberapa kali dan gagal akhirnya saya bisa memasang laravel pada mesin linux Xubuntu 18.04 saya. Nah ini adalah beberapa langkah yang saya lakukan.</description>
     </item>
     
     <item>
@@ -36,7 +38,8 @@ Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel
       <pubDate>Sat, 17 Feb 2018 02:12:34 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/laravel-1/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;</description>
+      <description>&lt;img src=&#34;https://okutasan.web.id/img/laravel/laravelogo.png&#34; width=&#34;75%&#34;&gt;
+Selamat malam, Ini adalah catatan belajar laravel yang saya lakukan. Semoga bermanfaat.</description>
     </item>
     
   </channel>
