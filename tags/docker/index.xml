@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docker on Mas Shiro</title>
+    <title>docker on Mas Shiro</title>
     <link>https://okutasan.web.id/tags/docker/</link>
-    <description>Recent content in Docker on Mas Shiro</description>
+    <description>Recent content in docker on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 15 Mar 2018 05:15:01 +0700</lastBuildDate>
     
@@ -16,8 +16,7 @@
       <pubDate>Thu, 15 Mar 2018 05:15:01 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/docker-1/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/docker/dockerhero.jpg&#34; width=&#34;60%&#34;&gt;&lt;/p&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;こんにちはみんな! (^o^)/
 Selamat pagi, Ini adalah catatan belajar &lt;code&gt;Docker Portainer&lt;/code&gt; yang saya lakukan. Semoga bermanfaat..&lt;/p&gt;</description>
     </item>

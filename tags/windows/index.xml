@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Windows on Mas Shiro</title>
+    <title>windows on Mas Shiro</title>
     <link>https://okutasan.web.id/tags/windows/</link>
-    <description>Recent content in Windows on Mas Shiro</description>
+    <description>Recent content in windows on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 19 Feb 2018 00:09:16 +0700</lastBuildDate>
     
@@ -16,9 +16,8 @@
       <pubDate>Mon, 19 Feb 2018 00:09:16 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/path-windows/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/path/cover.png&#34; alt=&#34;cover&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;こんにちはみんな! (^o^)/&lt;br /&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/path/cover.png&#34; alt=&#34;cover&#34;&gt;&lt;/p&gt;
+&lt;p&gt;こんにちはみんな! (^o^)/&lt;br&gt;
 Kali ini saya akan memberikan tips tentang penggunaan &lt;strong&gt;$PATH&lt;/strong&gt; pada Windows.&lt;/p&gt;</description>
     </item>
     

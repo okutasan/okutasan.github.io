@@ -1,26 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Mas Shiro</title>
     <link>https://okutasan.web.id/tags/</link>
     <description>Recent content in Tags on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 29 Mar 2018 01:36:25 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 10 Feb 2019 16:19:19 +0700</lastBuildDate>
     
 	<atom:link href="https://okutasan.web.id/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Android</title>
-      <link>https://okutasan.web.id/tags/android/</link>
-      <pubDate>Thu, 29 Mar 2018 01:36:25 +0700</pubDate>
-      
-      <guid>https://okutasan.web.id/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cli</title>
+      <title>cli</title>
       <link>https://okutasan.web.id/tags/cli/</link>
       <pubDate>Sun, 10 Feb 2019 16:19:19 +0700</pubDate>
       
@@ -29,52 +20,7 @@
     </item>
     
     <item>
-      <title>Django</title>
-      <link>https://okutasan.web.id/tags/django/</link>
-      <pubDate>Tue, 20 Feb 2018 16:24:44 +0700</pubDate>
-      
-      <guid>https://okutasan.web.id/tags/django/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://okutasan.web.id/tags/docker/</link>
-      <pubDate>Thu, 15 Mar 2018 05:15:01 +0700</pubDate>
-      
-      <guid>https://okutasan.web.id/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Install</title>
-      <link>https://okutasan.web.id/tags/install/</link>
-      <pubDate>Thu, 29 Mar 2018 00:24:51 +0700</pubDate>
-      
-      <guid>https://okutasan.web.id/tags/install/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Java</title>
-      <link>https://okutasan.web.id/tags/java/</link>
-      <pubDate>Thu, 29 Mar 2018 00:24:51 +0700</pubDate>
-      
-      <guid>https://okutasan.web.id/tags/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Laravel</title>
-      <link>https://okutasan.web.id/tags/laravel/</link>
-      <pubDate>Mon, 19 Nov 2018 04:15:43 +0700</pubDate>
-      
-      <guid>https://okutasan.web.id/tags/laravel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
+      <title>linux</title>
       <link>https://okutasan.web.id/tags/linux/</link>
       <pubDate>Sun, 10 Feb 2019 16:19:19 +0700</pubDate>
       
@@ -83,25 +29,16 @@
     </item>
     
     <item>
-      <title>Python</title>
-      <link>https://okutasan.web.id/tags/python/</link>
-      <pubDate>Tue, 20 Feb 2018 16:24:44 +0700</pubDate>
+      <title>laravel</title>
+      <link>https://okutasan.web.id/tags/laravel/</link>
+      <pubDate>Mon, 19 Nov 2018 04:15:43 +0700</pubDate>
       
-      <guid>https://okutasan.web.id/tags/python/</guid>
+      <guid>https://okutasan.web.id/tags/laravel/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Relax</title>
-      <link>https://okutasan.web.id/tags/relax/</link>
-      <pubDate>Sat, 17 Mar 2018 23:09:48 +0700</pubDate>
-      
-      <guid>https://okutasan.web.id/tags/relax/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tips</title>
+      <title>tips</title>
       <link>https://okutasan.web.id/tags/tips/</link>
       <pubDate>Sun, 07 Oct 2018 20:13:06 +0700</pubDate>
       
@@ -110,7 +47,70 @@
     </item>
     
     <item>
-      <title>Windows</title>
+      <title>android</title>
+      <link>https://okutasan.web.id/tags/android/</link>
+      <pubDate>Thu, 29 Mar 2018 01:36:25 +0700</pubDate>
+      
+      <guid>https://okutasan.web.id/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>install</title>
+      <link>https://okutasan.web.id/tags/install/</link>
+      <pubDate>Thu, 29 Mar 2018 00:24:51 +0700</pubDate>
+      
+      <guid>https://okutasan.web.id/tags/install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://okutasan.web.id/tags/java/</link>
+      <pubDate>Thu, 29 Mar 2018 00:24:51 +0700</pubDate>
+      
+      <guid>https://okutasan.web.id/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>relax</title>
+      <link>https://okutasan.web.id/tags/relax/</link>
+      <pubDate>Sat, 17 Mar 2018 23:09:48 +0700</pubDate>
+      
+      <guid>https://okutasan.web.id/tags/relax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://okutasan.web.id/tags/docker/</link>
+      <pubDate>Thu, 15 Mar 2018 05:15:01 +0700</pubDate>
+      
+      <guid>https://okutasan.web.id/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>django</title>
+      <link>https://okutasan.web.id/tags/django/</link>
+      <pubDate>Tue, 20 Feb 2018 16:24:44 +0700</pubDate>
+      
+      <guid>https://okutasan.web.id/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://okutasan.web.id/tags/python/</link>
+      <pubDate>Tue, 20 Feb 2018 16:24:44 +0700</pubDate>
+      
+      <guid>https://okutasan.web.id/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
       <link>https://okutasan.web.id/tags/windows/</link>
       <pubDate>Mon, 19 Feb 2018 00:09:16 +0700</pubDate>
       

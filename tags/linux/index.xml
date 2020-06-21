@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Mas Shiro</title>
+    <title>linux on Mas Shiro</title>
     <link>https://okutasan.web.id/tags/linux/</link>
-    <description>Recent content in Linux on Mas Shiro</description>
+    <description>Recent content in linux on Mas Shiro</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 10 Feb 2019 16:19:19 +0700</lastBuildDate>
     
@@ -16,9 +16,8 @@
       <pubDate>Sun, 10 Feb 2019 16:19:19 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/catatan-cli/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/cli-thumbnail.png&#34; width=&#34;100%&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;こんにちはみんな! (^o^)/&lt;br /&gt;
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;こんにちはみんな! (^o^)/&lt;br&gt;
 Selamat malam, Ini adalah catatan belajar &lt;code&gt;Command Line Interface&lt;/code&gt; yang saya lakukan. Semoga bermanfaat..&lt;/p&gt;</description>
     </item>
     
@@ -28,9 +27,9 @@ Selamat malam, Ini adalah catatan belajar &lt;code&gt;Command Line Interface&lt;
       <pubDate>Mon, 19 Nov 2018 04:15:43 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/laravel-3/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/laravel/laradock.jpg&#34; width=&#34;95%&#34;&gt;&lt;br /&gt;
-こんにちはみんな! (^o^)/&lt;br /&gt;
-Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel&lt;/code&gt; menggunakan &lt;code&gt;docker&lt;/code&gt; atau biasa disebut &lt;strong&gt;&lt;code&gt;Laradock&lt;/code&gt;&lt;/strong&gt;. Apa keuntungannya jika kita memakai laradock ? &lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/laravel/laradock.jpg&#34; alt=&#34;git&#34;&gt;&lt;br&gt;
+こんにちはみんな! (^o^)/&lt;br&gt;
+Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel&lt;/code&gt; menggunakan &lt;code&gt;docker&lt;/code&gt; atau biasa disebut &lt;strong&gt;&lt;code&gt;Laradock&lt;/code&gt;&lt;/strong&gt;. Apa keuntungannya jika kita memakai laradock ?&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -39,9 +38,7 @@ Halo, kali ini saya akan berbagi cara setup lingkungan kerja &lt;code&gt;laravel
       <pubDate>Fri, 12 Oct 2018 22:39:05 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/laravel-2/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/midoriya.png&#34; width=&#34;80%&#34;&gt;&lt;br /&gt;
-こんにちはみんな! (^o^)/&lt;br /&gt;
-Halo semua, yatta setelah mencoba beberapa kali dan gagal akhirnya saya bisa memasang laravel pada mesin linux Xubuntu 18.04 saya. Nah ini adalah beberapa langkah yang saya lakukan.&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
@@ -50,8 +47,7 @@ Halo semua, yatta setelah mencoba beberapa kali dan gagal akhirnya saya bisa mem
       <pubDate>Sun, 07 Oct 2018 20:13:06 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/plymouth-module-missing/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://cn.pling.com/img/f/7/b/4/3d11483df3d7c1a3664974198fb6d964c499.gif&#34; width=&#34;30%&#34;&gt;&lt;/p&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;こんにちはみんな! (^o^)/
 Halo semua, jadi saat saya ingin merubah plymouth terjadi eror seperti ini&lt;/p&gt;</description>
     </item>
@@ -62,10 +58,9 @@ Halo semua, jadi saat saya ingin merubah plymouth terjadi eror seperti ini&lt;/p
       <pubDate>Tue, 17 Apr 2018 17:43:30 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/emergency-boot-linux/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://orig00.deviantart.net/92c1/f/2015/071/4/2/linuxmint_flat_wallpaper_by_x86basedhuman-d8lemzo.png&#34; width=&#34;70%&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;こんにちはみんな! (^o^)/&lt;br /&gt;
-Halo semua, pernah mengalami emergency boot di linux ? . &lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;こんにちはみんな! (^o^)/ &lt;br&gt;
+Halo semua, pernah mengalami emergency boot di linux ? .&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -74,10 +69,9 @@ Halo semua, pernah mengalami emergency boot di linux ? . &lt;/p&gt;</description
       <pubDate>Thu, 29 Mar 2018 01:36:25 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/eror-insufficient-permissions-for-device-with-adb/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/java/androidstudio.png&#34; width=&#34;50%&#34;&gt;&lt;/p&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;こんにちはみんな! (^o^)/
-Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikasi yang saya gunakan adalah Android Studio yang run pada Linux Mint. &lt;/p&gt;</description>
+Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikasi yang saya gunakan adalah Android Studio yang run pada Linux Mint.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -86,9 +80,7 @@ Halo semua, jadi ceritanya saya sedang belajar membuat aplikasi android. Aplikas
       <pubDate>Thu, 29 Mar 2018 00:24:51 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/install-java-linux-mint/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://techaeris.com/wp-content/uploads/2016/01/Java-logo-png.png&#34; width=&#34;75%&#34;&gt;&lt;br /&gt;
-こんにちはみんな! (^o^)/&lt;br /&gt;
-Selamat malam, Ini adalah catatan belajar &lt;code&gt;Install Java Pada Linux Mint&lt;/code&gt; yang saya lakukan. Semoga bermanfaat..&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
@@ -97,9 +89,7 @@ Selamat malam, Ini adalah catatan belajar &lt;code&gt;Install Java Pada Linux Mi
       <pubDate>Sun, 18 Mar 2018 01:54:33 +0700</pubDate>
       
       <guid>https://okutasan.web.id/post/eror-mount-ntfs/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://okutasan.web.id/img/ntfseror.png&#34; width=&#34;90%&#34;&gt;&lt;br /&gt;
-こんにちはみんな! (^o^)/
-Selamat pagi, Ini adalah catatan tips &lt;code&gt;Eror mount NTFS di Ubuntu&lt;/code&gt; Semoga bermanfaat..&lt;/p&gt;</description>
+      <description>&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
   </channel>
